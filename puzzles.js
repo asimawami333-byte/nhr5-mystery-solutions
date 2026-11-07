@@ -25,9 +25,9 @@ window.NHR5_CASES = [
     "title": "The Frozen Window",
     "difficulty": "EASY",
     "scenario": "A person is found in a locked room. Snow lies undisturbed outside the only window, and the window is locked from within. A puddle is beneath an open ice tray.",
-    "question": "What most likely explains the apparent impossible entry?",
-    "answer": "The intruder used a key or was already inside; the snow rules out a recent passage through the window.",
-    "explanation": "The clues eliminate the window as an entry route but do not prove a specific person or method. The defensible conclusion is that the window was not used."
+    "question": "What can the clues establish about the window?",
+    "answer": "The window is an unlikely entry route; the actual way the person entered is not determined.",
+    "explanation": "Undisturbed snow and the locked window argue against passage through it. The clues do not identify another entry route or prove whether the person was already inside."
   },
   {
     "id": "004",
@@ -236,8 +236,8 @@ window.NHR5_CASES = [
     "difficulty": "EASY",
     "scenario": "Mira says, 'Noah took the file.' Noah says, 'Mira is innocent.' Exactly one statement is true. Either Mira or Noah took the file.",
     "question": "Who took the file?",
-    "answer": "Noah took the file.",
-    "explanation": "If Noah took it, Mira's statement is true and Noah's is false. If Mira took it, both statements are false? Mira's accusation false and Noah's claim false, giving zero true. So Noah is the only fit."
+    "answer": "No valid solution: the statements cannot produce exactly one truth.",
+    "explanation": "If Mira took the file, both statements are false. If Noah took it, both statements are true. Neither possibility gives exactly one true statement, so the puzzle's conditions are inconsistent."
   },
   {
     "id": "025",
@@ -632,7 +632,7 @@ window.NHR5_CASES = [
   {
     "id": "064",
     "category": "SECRET CODES & MESSAGES",
-    "title": "The Mirror Digits",
+    "title": "The Zero-Based Alphabet",
     "difficulty": "EASY",
     "scenario": "Using A=0, B=1, ..., Z=25, decode 7-4-11-11-14.",
     "question": "What word appears?",
@@ -662,12 +662,12 @@ window.NHR5_CASES = [
   {
     "id": "067",
     "category": "SECRET CODES & MESSAGES",
-    "title": "The Shifted Numbers",
+    "title": "The Five-Letter Number Code",
     "difficulty": "MEDIUM",
-    "scenario": "A two-row rail-fence cipher was made by writing alternating letters on two lines, then reading line 1 followed by line 2. Ciphertext: HLOOLELWRD.",
-    "question": "What was the original message?",
-    "answer": "HELLOWORLD.",
-    "explanation": "Split the ciphertext into the two rails HLOOL and ELWRD, then interleave the letters: H E L L O W O R L D."
+    "scenario": "A=1, B=2, ..., Z=26. Decode the sequence 19-8-1-4-15-23.",
+    "question": "What word is hidden?",
+    "answer": "SHADOW.",
+    "explanation": "19=S, 8=H, 1=A, 4=D, 15=O, and 23=W."
   },
   {
     "id": "068",
@@ -704,20 +704,20 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The First Letters",
     "difficulty": "MEDIUM",
-    "scenario": "Read the first letter of each line: 'Silent halls wait. Every clue matters. Clocks never lie. Return at dawn.'",
-    "question": "What word is hidden?",
-    "answer": "SECR.",
-    "explanation": "The first letters are S, E, C, R. The clue gives only SECR, likely an incomplete word; no full word can be inferred."
+    "scenario": "Read the first letter of each line: 'Silent corridors hide secrets. All clues matter. Footsteps fade quickly. Every shadow has a story.'",
+    "question": "What four-letter word is hidden?",
+    "answer": "SAFE.",
+    "explanation": "The first letters are S, A, F, and E."
   },
   {
     "id": "072",
     "category": "SECRET CODES & MESSAGES",
     "title": "The Keyed Alphabet",
     "difficulty": "MEDIUM",
-    "scenario": "Use the reverse alphabet (A↔Z). Decode: XZHV.",
+    "scenario": "Use the reverse alphabet (A↔Z, B↔Y, and so on). Decode: XZHV.",
     "question": "What is the result?",
-    "answer": "MOO.",
-    "explanation": "8+5=13=M; 7+8=15=O; 10+5=15=O."
+    "answer": "CASE.",
+    "explanation": "Under Atbash, X maps to C, Z maps to A, H maps to S, and V maps to E."
   },
   {
     "id": "073",
@@ -764,10 +764,10 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Binary Door",
     "difficulty": "HARD",
-    "scenario": "Convert the 5-bit binary groups using A=1, B=2, etc.: 00101 00100 00101.",
+    "scenario": "Convert each 5-bit binary group to a number, then use A=1, B=2, ..., Z=26: 01000 00101 01100 01100 01111.",
     "question": "What word is encoded?",
-    "answer": "EDE.",
-    "explanation": "00101=5=E, 00100=4=D, 00101=5=E."
+    "answer": "HELLO.",
+    "explanation": "The binary groups equal 8, 5, 12, 12, and 15. These map to H, E, L, L, and O."
   },
   {
     "id": "078",
@@ -826,8 +826,8 @@ window.NHR5_CASES = [
     "difficulty": "EASY",
     "scenario": "One box contains a coin. Box 1 says 'The coin is not here.' Box 2 says 'The coin is in Box 1.' Box 3 says 'The coin is not in Box 2.' Exactly one label is true.",
     "question": "Where is the coin?",
-    "answer": "Drawer B.",
-    "explanation": "If the prize is in B, only label 1 is true: the prize is not in A. Label 2 ('in A') is false and label 3 ('not in B') is false. If it is in A or C, two labels are true."
+    "answer": "Box 2.",
+    "explanation": "If the coin is in Box 2, only Box 1's label is true: the coin is not in Box 1. Box 2's and Box 3's labels are false. If the coin is in Box 1 or Box 3, two labels are true."
   },
   {
     "id": "084",
@@ -854,10 +854,10 @@ window.NHR5_CASES = [
     "category": "MASTER DETECTIVE CASES",
     "title": "The Four Cards",
     "difficulty": "EASY",
-    "scenario": "Four cards show 2, 5, 8, and 11. Exactly one is the odd one out because the others share a property.",
+    "scenario": "Four cards show 2, 5, 8, and 11. Exactly three cards are prime numbers; one card is not prime.",
     "question": "Which card is the odd one out?",
-    "answer": "Yes: A, C, D, B.",
-    "explanation": "Place A first, C second, D third, and B fourth. C is immediately left of D, and B is not beside A."
+    "answer": "8.",
+    "explanation": "2, 5, and 11 are prime. 8 is composite, so it is the only card that does not share the stated property."
   },
   {
     "id": "087",
