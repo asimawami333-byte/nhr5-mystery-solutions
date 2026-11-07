@@ -54,10 +54,10 @@ window.NHR5_CASES = [
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The One-Way Hall",
     "difficulty": "EASY",
-    "scenario": "A museum room has one door with an inward-facing latch. The latch is found engaged, and no other opening exists. A visitor claims to have left after the latch engaged.",
+    "scenario": "A museum room has one door with an inward-facing latch. The latch can only be engaged from inside and does not engage automatically. No one else was present to engage it after the visitor left. A visitor claims to have left after the latch engaged.",
     "question": "Can the visitor's account be true?",
-    "answer": "No, not if the latch can only be engaged from inside and no one else could engage it.",
-    "explanation": "The physical rule makes the claim incompatible with the room's stated layout."
+    "answer": "No.",
+    "explanation": "The latch can only be engaged from inside, and the visitor says it was already engaged before leaving. With no automatic latch and no second person, the account is impossible."
   },
   {
     "id": "007",
@@ -84,10 +84,10 @@ window.NHR5_CASES = [
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The Keyhole Shadow",
     "difficulty": "MEDIUM",
-    "scenario": "A key is found on the inside of a locked door. A thin strip of paper lies beneath the door, with a key-shaped impression.",
+    "scenario": "A key lies on the floor just inside a locked door. A thin strip of paper is pushed under the door; when it is pulled back outside, the key rests on it and leaves a key-shaped impression.",
     "question": "How could the key have been moved without opening the door?",
-    "answer": "It could have been pushed or pulled under the door using the paper strip, if the key was small enough.",
-    "explanation": "The impression and strip suggest a mechanical retrieval trick; the exact method depends on the key and floor clearance."
+    "answer": "Someone inside could have placed the key on the paper, then the strip could be pulled out from the corridor.",
+    "explanation": "The paper strip can slide beneath the door and carry the key across the gap. This explains the movement without opening the door."
   },
   {
     "id": "010",
@@ -204,10 +204,10 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Three Accusations",
     "difficulty": "EASY",
-    "scenario": "Ava says Ben stole the ring. Ben says Cara stole it. Cara says Ben is lying. Exactly one statement is true, and exactly one person stole the ring.",
+    "scenario": "Ava says, 'Ben stole the ring.' Ben says, 'Ava stole the ring.' Cara says, 'Ava stole the ring.' Exactly one statement is true, and exactly one person stole the ring.",
     "question": "Who stole the ring?",
-    "answer": "Ava stole the ring.",
-    "explanation": "If Ava stole it, Ava's claim is false, Ben's claim is false, and Cara's claim that Ben is lying is true. Exactly one statement is true."
+    "answer": "Ben.",
+    "explanation": "If Ben stole it, Ava's statement is true while Ben's and Cara's are false. If Ava stole it, two statements are true; if Cara stole it, none are true. Ben is the unique solution."
   },
   {
     "id": "022",
@@ -224,10 +224,10 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Three Witnesses",
     "difficulty": "EASY",
-    "scenario": "A ring was stolen by exactly one of A, B, or C. A says, 'B stole it.' B says, 'C stole it.' C says, 'B did not steal it.' Exactly one statement is true.",
+    "scenario": "A ring was stolen by exactly one of A, B, or C. A says, 'B stole it.' B says, 'A stole it.' C says, 'A stole it.' Exactly one statement is true.",
     "question": "Who stole the ring?",
     "answer": "B.",
-    "explanation": "If B stole it, A's statement is true, while B's and C's statements are false. If A or C stole it, the truth count is not one. B is the unique solution."
+    "explanation": "If B stole it, A's statement is true and the other two are false. If A stole it, two statements are true; if C stole it, none are true."
   },
   {
     "id": "024",
@@ -306,8 +306,8 @@ window.NHR5_CASES = [
     "difficulty": "MEDIUM",
     "scenario": "Only one key opens the office. Red opens the lab. Blue opens the office or the store. Green does not open the store. The store key is not green, and the office key is not red.",
     "question": "Which key opens the office?",
-    "answer": "Blue.",
-    "explanation": "Red is excluded by the clue. Blue is the only remaining key that can open the office; green cannot be the store key but is not stated to open the office."
+    "answer": "Blue opens the store; Green opens the office.",
+    "explanation": "Red is assigned to the lab. Green cannot open the store, so Green must open the office. Blue is then the only key left for the store."
   },
   {
     "id": "032",
@@ -334,10 +334,10 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Three Claims",
     "difficulty": "MEDIUM",
-    "scenario": "One of A, B, or C stole a watch. A says, 'B stole it.' B says, 'A stole it.' C says, 'B did not steal it.' Exactly one statement is true.",
+    "scenario": "One of A, B, or C stole a watch. A says, 'B stole it.' B says, 'A stole it.' C says, 'A stole it.' Exactly one statement is true.",
     "question": "Who stole the watch?",
     "answer": "B.",
-    "explanation": "If B stole it, A's statement is true while B's and C's are false. If A or C stole it, the truth count is two. B is the only possibility."
+    "explanation": "If B stole it, A's statement is true while B's and C's are false. If A stole it, two statements are true; if C stole it, none are true."
   },
   {
     "id": "035",
@@ -374,20 +374,20 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Silent Phone",
     "difficulty": "HARD",
-    "scenario": "A suspect's phone shows no outgoing calls between 6 and 8. A witness claims to have spoken to the suspect by phone at 7.",
+    "scenario": "A suspect's phone log shows no incoming or outgoing calls between 6 and 8. A witness claims to have spoken to the suspect by phone at 7.",
     "question": "What follows?",
-    "answer": "At least one record is incomplete or the conversation used another device/service.",
-    "explanation": "No outgoing calls on that phone conflicts with the claimed call, but it does not prove the witness lied."
+    "answer": "At least one record is incomplete, or the conversation used another device or service.",
+    "explanation": "The claim conflicts with the phone's complete call log. The evidence does not by itself prove which account is wrong."
   },
   {
     "id": "039",
     "category": "CRIMINAL DEDUCTION",
     "title": "The Stolen Blueprint",
     "difficulty": "HARD",
-    "scenario": "A blueprint was copied. Only Ana, Bo, and Cy saw it. Ana says Bo copied it. Bo says Cy copied it. Cy says Bo is innocent. Exactly one statement is false.",
-    "question": "Who copied it?",
-    "answer": "Bo.",
-    "explanation": "If Bo copied it, Ana is truthful, Bo's claim is false, and Cy's claim is false, giving two false statements. The stated condition is inconsistent; no unique solution follows."
+    "scenario": "A blueprint was copied by exactly one of A, B, or C. A says, 'B copied it.' B says, 'A copied it.' C says, 'A copied it.' Exactly one statement is true.",
+    "question": "Who copied the blueprint?",
+    "answer": "B.",
+    "explanation": "If B copied it, A's statement is true, while B's and C's are false. If A copied it, two statements are true; if C copied it, none are true."
   },
   {
     "id": "040",
@@ -434,10 +434,10 @@ window.NHR5_CASES = [
     "category": "HIDDEN EVIDENCE",
     "title": "The Reversed Label",
     "difficulty": "EASY",
-    "scenario": "A blueprint was copied by exactly one of A, B, or C. A says, 'B copied it.' B says, 'A copied it.' C says, 'B did not copy it.' Exactly one statement is true.",
-    "question": "Who copied the blueprint?",
-    "answer": "B.",
-    "explanation": "If B copied it, A's statement is true, while B's and C's are false. If A or C copied it, the number of true statements is two. B is the unique solution."
+    "scenario": "A bottle label is faded except for a clean strip where a second label once covered it. The bottle's cap is dusty.",
+    "question": "What likely happened?",
+    "answer": "A label was removed or replaced without necessarily opening the bottle.",
+    "explanation": "The clean strip records where another label covered the bottle. The dusty cap suggests the cap may not have been handled recently, but it does not prove the bottle stayed sealed."
   },
   {
     "id": "045",
@@ -644,10 +644,10 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Odd Letters",
     "difficulty": "EASY",
-    "scenario": "The message is hidden in every second letter: XH E A L R P L E. Read positions 2, 4, 6, 8.",
+    "scenario": "The message is hidden in every second letter. Read positions 2, 4, 6, and 8 of this string: XHYEZLQP.",
     "question": "What is the message?",
     "answer": "HELP.",
-    "explanation": "The selected letters are H, E, L, P."
+    "explanation": "The selected letters are H, E, L, and P."
   },
   {
     "id": "066",
@@ -796,8 +796,8 @@ window.NHR5_CASES = [
     "difficulty": "HARD",
     "scenario": "Remove every letter that appears twice from the string: MYSTERYROOM.",
     "question": "What remains?",
-    "answer": "ST.",
-    "explanation": "M, Y, R, and O appear more than once. Removing every occurrence of those repeated letters leaves S and T."
+    "answer": "STE.",
+    "explanation": "M, Y, R, and O appear more than once. Removing every occurrence of those repeated letters leaves S, T, and E."
   },
   {
     "id": "081",
@@ -876,8 +876,8 @@ window.NHR5_CASES = [
     "difficulty": "MEDIUM",
     "scenario": "Three people wear hats, each either red or blue. You are told at least one hat is red. A sees B and C; B sees C; C sees none. A says 'I don't know my colour.' B says 'I don't know.' C then says 'My hat is red.'",
     "question": "Can C deduce that?",
-    "answer": "No, not from the information given.",
-    "explanation": "The statements do not provide enough information to force C's hat colour; many assignments remain possible."
+    "answer": "C's hat is red.",
+    "explanation": "If B and C were both wearing blue, A would know A's own hat had to be red. Since A does not know, at least one of B or C is red. B then sees C; if C were blue, B would know B must be red. Since B also does not know, C must be red."
   },
   {
     "id": "089",
@@ -954,10 +954,10 @@ window.NHR5_CASES = [
     "category": "MASTER DETECTIVE CASES",
     "title": "The Three Statements",
     "difficulty": "HARD",
-    "scenario": "A says: 'B is guilty.' B says: 'C is guilty.' C says: 'B is lying.' Exactly one statement is true and exactly one person is guilty.",
+    "scenario": "A says, 'B is guilty.' B says, 'A is guilty.' C says, 'B is guilty.' Exactly one statement is true, and exactly one person is guilty.",
     "question": "Who is guilty?",
     "answer": "A.",
-    "explanation": "If A is guilty, A's claim is false, B's claim is false, and C's claim that B is lying is true: exactly one truth."
+    "explanation": "If A is guilty, all three statements are false? A's claim that B is guilty is false, B's claim that A is guilty is true, and C's claim that B is guilty is false: exactly one true. If B is guilty, A and C are both true; if C is guilty, all are false."
   },
   {
     "id": "097",
@@ -986,8 +986,8 @@ window.NHR5_CASES = [
     "difficulty": "HARD",
     "scenario": "Four lamps are in a row. Lamp A is not beside B. C is immediately left of D. A is at the far left.",
     "question": "Can all clues be satisfied?",
-    "answer": "No.",
-    "explanation": "If A is far left, B cannot be in position 2. C-D must occupy adjacent positions; the remaining positions 2,3,4 cannot place B without violating A not beside B or C immediately left of D."
+    "answer": "Yes: A, C, D, B.",
+    "explanation": "Place A first, C second, D third, and B fourth. C is immediately left of D, and B is not beside A."
   },
   {
     "id": "100",
