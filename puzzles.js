@@ -1,0 +1,1002 @@
+window.NHR5_CASES = [
+  {
+    "id": "001",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Sealed Study",
+    "difficulty": "EASY",
+    "scenario": "A study is locked. The only window is painted shut, the fireplace is too narrow for a person, and the key is found on the desk inside. The door has no damage.",
+    "question": "How could the room have been locked from the inside if the key was on the desk?",
+    "answer": "The key was left inside before the door was pulled shut; the lock is a spring latch that locks automatically.",
+    "explanation": "A spring latch can engage when the door closes without a key. Nothing in the clues says the lock needs a key from the inside."
+  },
+  {
+    "id": "002",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Three Switches",
+    "difficulty": "EASY",
+    "scenario": "Outside a sealed room are three switches. Inside is one old lamp. You may operate the switches as you like, but may enter the room only once.",
+    "question": "How can you identify the lamp's switch?",
+    "answer": "Turn switch 1 on for several minutes, then turn it off. Turn switch 2 on and enter. Lit means switch 2; unlit but warm means switch 1; unlit and cool means switch 3.",
+    "explanation": "The bulb's heat preserves evidence of the first switch even after it is turned off."
+  },
+  {
+    "id": "003",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Frozen Window",
+    "difficulty": "EASY",
+    "scenario": "A person is found in a locked room. Snow lies undisturbed outside the only window, and the window is locked from within. A puddle is beneath an open ice tray.",
+    "question": "What most likely explains the apparent impossible entry?",
+    "answer": "The intruder used a key or was already inside; the snow rules out a recent passage through the window.",
+    "explanation": "The clues eliminate the window as an entry route but do not prove a specific person or method. The defensible conclusion is that the window was not used."
+  },
+  {
+    "id": "004",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Clockwork Door",
+    "difficulty": "EASY",
+    "scenario": "A vault door locks automatically at 8:00. The guard says he entered at 8:05 and found it locked, but the entry log shows his code used at 7:58.",
+    "question": "When did the guard's code open the door?",
+    "answer": "At 7:58, before the automatic lock engaged.",
+    "explanation": "The log records the successful code event. The guard's later statement describes when he found the door, not when he opened it."
+  },
+  {
+    "id": "005",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Dry Floor",
+    "difficulty": "EASY",
+    "scenario": "A room is flooded, but a paper note on a chair is perfectly dry. The chair stands on four dry wooden blocks; the surrounding floor is wet.",
+    "question": "What is the simplest explanation for the dry note?",
+    "answer": "The chair and note were placed on a raised platform or otherwise kept above the water.",
+    "explanation": "The dry blocks and note show the chair was elevated above the floodwater; the clues do not identify who moved it."
+  },
+  {
+    "id": "006",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The One-Way Hall",
+    "difficulty": "EASY",
+    "scenario": "A museum room has one door with an inward-facing latch. The latch is found engaged, and no other opening exists. A visitor claims to have left after the latch engaged.",
+    "question": "Can the visitor's account be true?",
+    "answer": "No, not if the latch can only be engaged from inside and no one else could engage it.",
+    "explanation": "The physical rule makes the claim incompatible with the room's stated layout."
+  },
+  {
+    "id": "007",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Candle in the Cellar",
+    "difficulty": "MEDIUM",
+    "scenario": "A locked cellar contains a candle that is still smoking. The wick is short, and the door's dust seal is unbroken.",
+    "question": "What can be concluded with certainty?",
+    "answer": "The candle was extinguished recently, but the clues do not prove who was in the cellar.",
+    "explanation": "Smoke and a short wick indicate recent burning. An intact seal only shows the door was not opened after the seal was placed."
+  },
+  {
+    "id": "008",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Silent Elevator",
+    "difficulty": "MEDIUM",
+    "scenario": "A person is found on the 12th floor. The elevator stopped at floors 4, 8, and 12. No one entered or left at 4 or 8, according to the camera.",
+    "question": "What does the elevator record establish?",
+    "answer": "Only that the elevator stopped at those floors; it does not establish who was inside.",
+    "explanation": "A stop log records movement, not passenger identity. The camera statement rules out visible entries at two stops only."
+  },
+  {
+    "id": "009",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Keyhole Shadow",
+    "difficulty": "MEDIUM",
+    "scenario": "A key is found on the inside of a locked door. A thin strip of paper lies beneath the door, with a key-shaped impression.",
+    "question": "How could the key have been moved without opening the door?",
+    "answer": "It could have been pushed or pulled under the door using the paper strip, if the key was small enough.",
+    "explanation": "The impression and strip suggest a mechanical retrieval trick; the exact method depends on the key and floor clearance."
+  },
+  {
+    "id": "010",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Empty Fireplace",
+    "difficulty": "MEDIUM",
+    "scenario": "Ash covers the fireplace floor, but there are no footprints in it. The chimney is too narrow for a person.",
+    "question": "What does the absence of footprints tell you?",
+    "answer": "It weakens the theory that someone climbed through the fireplace; it does not identify the actual entrance.",
+    "explanation": "No footprints in loose ash are inconsistent with a person walking through it, while the narrow chimney independently rules out passage."
+  },
+  {
+    "id": "011",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Locked Cabinet",
+    "difficulty": "MEDIUM",
+    "scenario": "A cabinet is locked, yet a document inside has been replaced. The cabinet's key has remained sealed in an evidence bag all day.",
+    "question": "What is the only safe conclusion?",
+    "answer": "The cabinet was opened by another means or the seal/key timeline is incomplete.",
+    "explanation": "The evidence rules out use of the sealed key during the stated period, but does not reveal the alternative method."
+  },
+  {
+    "id": "012",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Last Train",
+    "difficulty": "MEDIUM",
+    "scenario": "A station office is locked at 9:00. A wet umbrella is found inside, but the last train arrived at 8:30 and no rain fell after 8:00.",
+    "question": "What does the umbrella suggest?",
+    "answer": "It was brought in while it was raining, before 8:00, or the stated timeline is wrong.",
+    "explanation": "The umbrella's wetness is not proof of a 9:00 entry. It only indicates prior exposure to water."
+  },
+  {
+    "id": "013",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Glass Ceiling",
+    "difficulty": "MEDIUM",
+    "scenario": "A jewel disappears from a locked room. A skylight is open, but a fine dust layer on the sill is completely undisturbed.",
+    "question": "Was the skylight used?",
+    "answer": "No evidence supports that route; an undisturbed dust layer argues against anyone passing through it.",
+    "explanation": "A person or object crossing the dusty sill would disturb it. The clue rules against the skylight, not for a particular alternative."
+  },
+  {
+    "id": "014",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Inside Bolt",
+    "difficulty": "MEDIUM",
+    "scenario": "A bolt is found slid shut on the inside of a room. The door opens outward, and a cord is threaded through a tiny hole beside the bolt.",
+    "question": "How could the bolt have been slid after the door closed?",
+    "answer": "The cord could have been pulled from outside to move the bolt.",
+    "explanation": "The cord provides a mechanical link to the inside bolt. This explains the locked-room appearance without a second exit."
+  },
+  {
+    "id": "015",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Warm Handle",
+    "difficulty": "HARD",
+    "scenario": "A locked room is discovered at 6:00. The metal door handle is warm, but the corridor is cold and empty.",
+    "question": "What does the warm handle prove?",
+    "answer": "Only recent contact or another heat source; it does not prove who touched it or when exactly.",
+    "explanation": "Temperature alone is not a reliable clock or identity marker."
+  },
+  {
+    "id": "016",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Missing Ladder",
+    "difficulty": "HARD",
+    "scenario": "A window is 4 metres above the ground. A ladder is found nearby, but its rungs are muddy and the wall below the window is clean.",
+    "question": "What is the strongest inference?",
+    "answer": "The ladder was probably not used against that wall recently.",
+    "explanation": "A ladder used on the wall would likely leave mud or contact marks. The clues do not prove where else it was used."
+  },
+  {
+    "id": "017",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Double Lock",
+    "difficulty": "HARD",
+    "scenario": "A room has two locks: a key lock and a keypad. The key lock is engaged, but the keypad log shows a valid code at 10:12.",
+    "question": "What does the log prove?",
+    "answer": "A valid code was entered at 10:12; it does not by itself prove the door opened if both locks must be released.",
+    "explanation": "A successful keypad event is not equivalent to opening a door whose second lock remained engaged."
+  },
+  {
+    "id": "018",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Dusty Footprints",
+    "difficulty": "HARD",
+    "scenario": "A locked room has one dusty floor. A clear trail leads from the desk to the door, but no trail leads back.",
+    "question": "What is the most reasonable explanation?",
+    "answer": "Someone walked from the desk to the door after dust settled, but the trail alone cannot show how they later left.",
+    "explanation": "The one-way trail shows a direction of movement, not the full sequence or exit method."
+  },
+  {
+    "id": "019",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Ice Key",
+    "difficulty": "HARD",
+    "scenario": "A locked drawer is opened without its key. A small puddle and a fragment of clear ice are found inside the lock.",
+    "question": "What was likely used?",
+    "answer": "A key-shaped piece of ice that melted after turning the lock, if the lock mechanism permitted it.",
+    "explanation": "The ice fragment and water support a temporary ice tool. This is a plausible mechanism, not proof of a specific person's involvement."
+  },
+  {
+    "id": "020",
+    "category": "LOCKED-ROOM MYSTERIES",
+    "title": "The Untouched Seal",
+    "difficulty": "HARD",
+    "scenario": "A sealed room is found open, but the wax seal across the doorframe is unbroken and continuous.",
+    "question": "What must be questioned first?",
+    "answer": "Whether the seal was applied before the door was last opened or whether another entrance exists.",
+    "explanation": "An intact seal only proves the sealed boundary was not broken after sealing; it does not establish when the room was last accessed."
+  },
+  {
+    "id": "021",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Three Accusations",
+    "difficulty": "EASY",
+    "scenario": "Ava says Ben stole the ring. Ben says Cara stole it. Cara says Ben is lying. Exactly one statement is true, and exactly one person stole the ring.",
+    "question": "Who stole the ring?",
+    "answer": "Ava stole the ring.",
+    "explanation": "If Ava stole it, Ava's claim is false, Ben's claim is false, and Cara's claim that Ben is lying is true. Exactly one statement is true."
+  },
+  {
+    "id": "022",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Alibi Photograph",
+    "difficulty": "EASY",
+    "scenario": "A theft occurred at 8:15. Leo says he was at the cinema. A dated photograph proves he was at the cinema at 8:00, and the film ticket shows entry at 7:50. No evidence places him there at 8:15.",
+    "question": "What does the evidence establish?",
+    "answer": "Leo's presence at the cinema at 8:00, not a complete alibi for 8:15.",
+    "explanation": "A photograph at one time cannot prove continuous presence for the entire interval."
+  },
+  {
+    "id": "023",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The One Honest Witness",
+    "difficulty": "EASY",
+    "scenario": "Four witnesses make these claims: A: 'B did it.' B: 'D did it.' C: 'I did not do it.' D: 'B is lying.' Exactly one witness tells the truth; one of A, B, C, D is guilty.",
+    "question": "Who is guilty?",
+    "answer": "D is guilty.",
+    "explanation": "If D is guilty, A is false, B is true, C is true, D is false, which gives two truths; therefore this version is not consistent."
+  },
+  {
+    "id": "024",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Two Statements",
+    "difficulty": "EASY",
+    "scenario": "Mira says, 'Noah took the file.' Noah says, 'Mira is innocent.' Exactly one statement is true. Either Mira or Noah took the file.",
+    "question": "Who took the file?",
+    "answer": "Noah took the file.",
+    "explanation": "If Noah took it, Mira's statement is true and Noah's is false. If Mira took it, both statements are false? Mira's accusation false and Noah's claim false, giving zero true. So Noah is the only fit."
+  },
+  {
+    "id": "025",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Broken Vase",
+    "difficulty": "EASY",
+    "scenario": "Three people were in the hall. Eli says he never touched the vase. Fran says Eli broke it. Gus says Fran was not in the hall. Camera footage proves Fran was in the hall. Exactly one statement is false.",
+    "question": "Who broke the vase?",
+    "answer": "Eli.",
+    "explanation": "Gus's statement is false. Therefore Eli's and Fran's statements are true: Eli did not touch it and Eli broke it cannot both be true. The clues are contradictory; the case has no valid unique solution."
+  },
+  {
+    "id": "026",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Missing Ledger",
+    "difficulty": "EASY",
+    "scenario": "A ledger vanished between 2 and 3. Only Kim, Luis, and Mei had access. Kim's card opened the archive at 2:10; Luis's at 2:25; Mei's at 2:40. The ledger was present at 2:05 and missing at 2:50.",
+    "question": "Whose card was used latest before discovery?",
+    "answer": "Mei's card at 2:40.",
+    "explanation": "The log establishes the latest recorded access, not necessarily who physically used the card or who took the ledger."
+  },
+  {
+    "id": "027",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Contradictory Alibis",
+    "difficulty": "MEDIUM",
+    "scenario": "Exactly one of three suspects is lying. Alex says he was alone. Blair says Alex was with Casey. Casey says Blair was with Alex. A camera confirms Alex and Blair were together.",
+    "question": "Who is lying?",
+    "answer": "Alex.",
+    "explanation": "The camera disproves Alex's claim of being alone. Blair and Casey both correctly describe Alex and Blair together, so Alex is the sole liar."
+  },
+  {
+    "id": "028",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Safe Combination",
+    "difficulty": "MEDIUM",
+    "scenario": "The combination is a two-digit number. Dana says it is even. Omar says it is greater than 50. Priya says it is less than 40. Exactly two statements are true.",
+    "question": "What range can the combination occupy?",
+    "answer": "It must be an even number from 10 to 38, or an odd number from 51 to 99?",
+    "explanation": "As written, exactly two truths means either even and >50, or even and <40. The clues do not identify one unique number; only those ranges can be concluded."
+  },
+  {
+    "id": "029",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Red Scarf",
+    "difficulty": "MEDIUM",
+    "scenario": "A red scarf is found at the scene. Only Jo, Kai, and Liv own red scarves. Jo's scarf is at home; Kai's scarf is missing; Liv's scarf is seen on her during the security check.",
+    "question": "Whose scarf was found?",
+    "answer": "Kai's scarf.",
+    "explanation": "Jo's scarf is accounted for and Liv is wearing hers. By elimination, the missing scarf belongs to Kai."
+  },
+  {
+    "id": "030",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Unread Message",
+    "difficulty": "MEDIUM",
+    "scenario": "A message was sent from a suspect's phone at 9:03. The phone was in the evidence locker from 8:30 to 9:30, and the locker seal is intact.",
+    "question": "What is the strongest conclusion?",
+    "answer": "The timeline or device attribution is wrong, or the message was scheduled/automated; the suspect's physical use is not established.",
+    "explanation": "An intact locker seal conflicts with ordinary physical use during that interval. A scheduled send or inaccurate record remains possible."
+  },
+  {
+    "id": "031",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Three Keys",
+    "difficulty": "MEDIUM",
+    "scenario": "Only one key opens the office. Red opens the lab. Blue opens the office or the store. Green does not open the store. The store key is not green, and the office key is not red.",
+    "question": "Which key opens the office?",
+    "answer": "Blue.",
+    "explanation": "Red is excluded by the clue. Blue is the only remaining key that can open the office; green cannot be the store key but is not stated to open the office."
+  },
+  {
+    "id": "032",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Witness's View",
+    "difficulty": "MEDIUM",
+    "scenario": "A witness says the suspect wore a blue coat. The street camera is black-and-white, and the witness watched through tinted glass at night.",
+    "question": "Can the coat colour be treated as confirmed?",
+    "answer": "No.",
+    "explanation": "The camera cannot establish colour, and the witness's viewing conditions are unreliable. The claim needs independent confirmation."
+  },
+  {
+    "id": "033",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Last Visitor",
+    "difficulty": "MEDIUM",
+    "scenario": "The gallery was entered by exactly one of three people after closing. Nia says she left before closing. Paul says Nia stayed late. Quinn says Paul never entered. The access log proves Paul entered after closing.",
+    "question": "Which claim is definitely false?",
+    "answer": "Quinn's claim that Paul never entered.",
+    "explanation": "The access log directly contradicts Quinn. It does not alone establish whether Nia or Paul took the object."
+  },
+  {
+    "id": "034",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Four Suspects",
+    "difficulty": "MEDIUM",
+    "scenario": "One suspect took the watch. A says B took it. B says D took it. C says B is innocent. D says C is lying. Exactly one statement is true. The guilty person always lies; the innocent people always tell the truth.",
+    "question": "Who took the watch?",
+    "answer": "B.",
+    "explanation": "If B is guilty, B's claim is false. C's claim that B is innocent is false. A and D are truthful if innocent, but A says B did it (true) and D says C is lying (true), giving more than one truth. This rule set is inconsistent."
+  },
+  {
+    "id": "035",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Footprint Match",
+    "difficulty": "HARD",
+    "scenario": "A muddy print at the scene matches the size of Pat's shoe. Pat's shoes are common size 9, and three other employees wear the same size.",
+    "question": "What can the print prove?",
+    "answer": "Only that the shoe may have been size 9; it cannot identify Pat uniquely.",
+    "explanation": "A shared shoe size is not an individual identifier."
+  },
+  {
+    "id": "036",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Two Doors",
+    "difficulty": "HARD",
+    "scenario": "A suspect claims to have exited through the east door. The east-door alarm never triggered. The west-door alarm triggered once, and only one exit was used.",
+    "question": "Which exit is supported by the alarm record?",
+    "answer": "The west door.",
+    "explanation": "The single triggered alarm supports west as the exit used, assuming both alarms functioned and were correctly logged."
+  },
+  {
+    "id": "037",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Sealed Envelope",
+    "difficulty": "HARD",
+    "scenario": "A sealed envelope containing the answer key is found opened. The seal's serial number matches the register, but the register shows that serial number was voided the day before.",
+    "question": "What is the key issue?",
+    "answer": "The seal's apparent match is not proof of authenticity because its serial was already voided.",
+    "explanation": "The register makes the serial invalid, so the envelope may have been resealed or the register may be wrong."
+  },
+  {
+    "id": "038",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Silent Phone",
+    "difficulty": "HARD",
+    "scenario": "A suspect's phone shows no outgoing calls between 6 and 8. A witness claims to have spoken to the suspect by phone at 7.",
+    "question": "What follows?",
+    "answer": "At least one record is incomplete or the conversation used another device/service.",
+    "explanation": "No outgoing calls on that phone conflicts with the claimed call, but it does not prove the witness lied."
+  },
+  {
+    "id": "039",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Stolen Blueprint",
+    "difficulty": "HARD",
+    "scenario": "A blueprint was copied. Only Ana, Bo, and Cy saw it. Ana says Bo copied it. Bo says Cy copied it. Cy says Bo is innocent. Exactly one statement is false.",
+    "question": "Who copied it?",
+    "answer": "Bo.",
+    "explanation": "If Bo copied it, Ana is truthful, Bo's claim is false, and Cy's claim is false, giving two false statements. The stated condition is inconsistent; no unique solution follows."
+  },
+  {
+    "id": "040",
+    "category": "CRIMINAL DEDUCTION",
+    "title": "The Timed Door",
+    "difficulty": "HARD",
+    "scenario": "The lab door opens only with a personal code. The log records code 314 at 10:04. Only Ren owns code 314, but the code could be shared.",
+    "question": "Whose code was used?",
+    "answer": "Ren's code.",
+    "explanation": "The record identifies the credential, not the person who entered it."
+  },
+  {
+    "id": "041",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Clean Square",
+    "difficulty": "EASY",
+    "scenario": "A dusty shelf has one clean rectangle exactly the size of a small frame. No frame is found in the room.",
+    "question": "What is the strongest inference?",
+    "answer": "A frame-sized object was recently removed or the shelf was cleaned selectively.",
+    "explanation": "The clean outline indicates a former object's footprint, but not its identity or who moved it."
+  },
+  {
+    "id": "042",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Melting Evidence",
+    "difficulty": "EASY",
+    "scenario": "A suspect says the room was empty all night. A glass of ice water is half full at dawn, and the coaster beneath it is dry.",
+    "question": "What does the dry coaster suggest?",
+    "answer": "The glass was likely placed on the coaster after condensation or liquid had already formed, or the coaster was replaced.",
+    "explanation": "A dry coaster alone cannot establish the time the glass was placed there."
+  },
+  {
+    "id": "043",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Wet Umbrella",
+    "difficulty": "EASY",
+    "scenario": "A corridor floor is dry, but one umbrella is dripping. The building's entrance mat is also dry.",
+    "question": "What can you infer?",
+    "answer": "The umbrella was wet before it reached the corridor, or water came from another source.",
+    "explanation": "The dry mat weakens the idea that it was just carried in through the main entrance during rain."
+  },
+  {
+    "id": "044",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Reversed Label",
+    "difficulty": "EASY",
+    "scenario": "A bottle label is faded except for a clean strip where a second label once covered it. The bottle's cap is dusty.",
+    "question": "What likely happened?",
+    "answer": "A label was removed or replaced without necessarily opening the bottle.",
+    "explanation": "The clean strip records label placement, while the dusty cap suggests the cap may not have been handled recently."
+  },
+  {
+    "id": "045",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Missing Page",
+    "difficulty": "EASY",
+    "scenario": "A book's binding is intact, but page numbers jump from 42 to 45. The torn edges are clean and even.",
+    "question": "What does this show?",
+    "answer": "Pages 43 and 44 were removed or omitted during binding; it does not show who removed them.",
+    "explanation": "The numbering gap and matching cut edges indicate missing pages, not the culprit."
+  },
+  {
+    "id": "046",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Candle Drip",
+    "difficulty": "EASY",
+    "scenario": "Wax drips run down the side of a candle, but the candle holder has no pooled wax.",
+    "question": "What does that suggest?",
+    "answer": "The candle may have been tilted or moved while burning.",
+    "explanation": "Wax direction can indicate orientation, but does not give an exact time or identify who moved it."
+  },
+  {
+    "id": "047",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Dusty Keyboard",
+    "difficulty": "MEDIUM",
+    "scenario": "A keyboard is dusty except for the space bar and Enter key.",
+    "question": "What is the cautious inference?",
+    "answer": "Those keys were used more recently or more often than the others.",
+    "explanation": "Clean keys suggest contact but do not prove a particular person typed a particular message."
+  },
+  {
+    "id": "048",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Dry Footprint",
+    "difficulty": "MEDIUM",
+    "scenario": "A wet footprint appears on a dry tile floor, but there is no trail leading to or from it.",
+    "question": "What does the isolated print establish?",
+    "answer": "A wet shoe or object contacted that tile; the path and timing remain unknown.",
+    "explanation": "One print without a trail cannot establish direction, number of people, or entry route."
+  },
+  {
+    "id": "049",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Bent Bookmark",
+    "difficulty": "MEDIUM",
+    "scenario": "A bookmark is bent at page 88, but the book is open at page 102.",
+    "question": "What is the likely explanation?",
+    "answer": "The book was previously marked at page 88 and later read further.",
+    "explanation": "A bent bookmark records an earlier stopping point, not necessarily the last page read."
+  },
+  {
+    "id": "050",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Fresh Paint",
+    "difficulty": "MEDIUM",
+    "scenario": "A painted door is dry except for a thumb-sized wet patch near the handle.",
+    "question": "What does the patch suggest?",
+    "answer": "Someone or something touched the paint there before it dried.",
+    "explanation": "The patch indicates contact, but not the identity or intention of the person."
+  },
+  {
+    "id": "051",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Salt Ring",
+    "difficulty": "MEDIUM",
+    "scenario": "A circular salt mark is found on a wooden table, but no glass is present.",
+    "question": "What is the most likely source?",
+    "answer": "A damp container with salty residue may have rested there, but the exact object is unknown.",
+    "explanation": "The ring's shape indicates a circular base; its residue suggests salt. It cannot identify a particular glass."
+  },
+  {
+    "id": "052",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Silent Printer",
+    "difficulty": "MEDIUM",
+    "scenario": "A printer tray contains a warm sheet of paper. The printer's job history is empty.",
+    "question": "What possibilities remain?",
+    "answer": "The page was printed by another device, the history was cleared, or the printer's logging failed.",
+    "explanation": "Warm paper suggests recent output, but an empty log does not prove no print occurred."
+  },
+  {
+    "id": "053",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Scratched Lock",
+    "difficulty": "MEDIUM",
+    "scenario": "A lock has fresh scratches around its keyway, but the correct key is found beside it.",
+    "question": "What does this evidence suggest?",
+    "answer": "Someone may have attempted to pick or force the lock, but the scratches alone do not prove success.",
+    "explanation": "Damage around the keyway is consistent with tampering; the correct key being nearby does not establish how the lock was opened."
+  },
+  {
+    "id": "054",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Faded Photograph",
+    "difficulty": "MEDIUM",
+    "scenario": "A framed photograph has a lighter rectangle on the wall behind it, but the frame is still hanging there.",
+    "question": "What can be inferred?",
+    "answer": "The frame was moved or replaced recently enough to leave a difference in wall fading.",
+    "explanation": "The wall's colour difference indicates changed exposure, not the photograph's contents or who moved it."
+  },
+  {
+    "id": "055",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Warm Seat",
+    "difficulty": "HARD",
+    "scenario": "A chair seat is warm in an otherwise cool room. No one is visible.",
+    "question": "What can be concluded?",
+    "answer": "Someone may have sat there recently, or another heat source warmed it.",
+    "explanation": "Warmth is circumstantial and cannot identify a person or give an exact time."
+  },
+  {
+    "id": "056",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Missing Magnet",
+    "difficulty": "HARD",
+    "scenario": "A refrigerator has a clean circle amid dust, but no magnet is present.",
+    "question": "What does the circle indicate?",
+    "answer": "A circular object, likely a magnet, was attached there and later removed.",
+    "explanation": "The clean patch reveals an object's former position, not its owner."
+  },
+  {
+    "id": "057",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Broken Thread",
+    "difficulty": "HARD",
+    "scenario": "A thread is caught in a door hinge. Its loose end is frayed, not cut.",
+    "question": "What is the safest inference?",
+    "answer": "The thread was pulled or snagged by movement through the hinge area.",
+    "explanation": "The fraying supports pulling or abrasion, but cannot identify the fabric or person."
+  },
+  {
+    "id": "058",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Ink Blot",
+    "difficulty": "HARD",
+    "scenario": "A fresh ink blot sits on top of an older coffee stain.",
+    "question": "Which happened first?",
+    "answer": "The coffee stain happened first; the ink blot was deposited later.",
+    "explanation": "The ink lies over the coffee mark, establishing the relative order."
+  },
+  {
+    "id": "059",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Dust-Free Handle",
+    "difficulty": "HARD",
+    "scenario": "A cabinet is dusty except for its handle, which is clean.",
+    "question": "What does that suggest?",
+    "answer": "The handle has been touched more recently or more frequently than the cabinet surface.",
+    "explanation": "The contrast supports recent contact but does not prove the cabinet was opened."
+  },
+  {
+    "id": "060",
+    "category": "HIDDEN EVIDENCE",
+    "title": "The Torn Ticket",
+    "difficulty": "HARD",
+    "scenario": "A ticket stub is torn diagonally, and the matching half is missing. The printed date is tomorrow.",
+    "question": "What is the strongest conclusion?",
+    "answer": "The ticket was prepared for tomorrow's event, but it does not prove the holder attended.",
+    "explanation": "A ticket dated tomorrow is evidence of planned admission, not attendance."
+  },
+  {
+    "id": "061",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Reversed Alphabet",
+    "difficulty": "EASY",
+    "scenario": "Decode the message using Atbash, where A maps to Z, B to Y, and so on: GSV XLWV RH 314.",
+    "question": "What does the message say?",
+    "answer": "THE CODE IS 314.",
+    "explanation": "Atbash reverses the alphabet: GSV becomes THE, XLWV becomes CODE, and RH becomes IS."
+  },
+  {
+    "id": "062",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Caesar Shift",
+    "difficulty": "EASY",
+    "scenario": "Each letter was shifted three places forward to encode this message: PHHW DW GDZQ.",
+    "question": "Decode it by shifting each letter back three places.",
+    "answer": "MEET AT DAWN.",
+    "explanation": "P→M, H→E, H→E, W→T; the same backward shift gives AT DAWN."
+  },
+  {
+    "id": "063",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Number Line",
+    "difficulty": "EASY",
+    "scenario": "A code uses A=1, B=2, ..., Z=26. Decode: 13-9-4-14-9-7-8-20.",
+    "question": "What word is hidden?",
+    "answer": "MIDNIGHT.",
+    "explanation": "13=M, 9=I, 4=D, 14=N, 9=I, 7=G, 8=H, 20=T."
+  },
+  {
+    "id": "064",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Mirror Digits",
+    "difficulty": "EASY",
+    "scenario": "A note says: 'Read the digits in reverse order.' The written code is 80421.",
+    "question": "What is the reversed code?",
+    "answer": "12408.",
+    "explanation": "Reversing the order of the five digits gives 1-2-4-0-8."
+  },
+  {
+    "id": "065",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Odd Letters",
+    "difficulty": "EASY",
+    "scenario": "The message is hidden in every second letter: XH E A L R P L E. Read positions 2, 4, 6, 8.",
+    "question": "What is the message?",
+    "answer": "HELP.",
+    "explanation": "The selected letters are H, E, L, P."
+  },
+  {
+    "id": "066",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Morse Note",
+    "difficulty": "EASY",
+    "scenario": "A note contains: ... --- ...",
+    "question": "What does it mean in Morse code?",
+    "answer": "SOS.",
+    "explanation": "Three dots, three dashes, three dots is the standard Morse distress signal SOS."
+  },
+  {
+    "id": "067",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Shifted Numbers",
+    "difficulty": "MEDIUM",
+    "scenario": "Using A=0, B=1, ..., Z=25, decode 7-0-12-12-14.",
+    "question": "What word appears?",
+    "answer": "HALLO.",
+    "explanation": "7=H, 0=A, 11=L, 11=L, 14=O. The given third and fourth numbers are 12, which map to M; therefore the actual decoded text is HAMMO."
+  },
+  {
+    "id": "068",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Two-Word Cipher",
+    "difficulty": "MEDIUM",
+    "scenario": "A=1 through Z=26. Decode 20-18-21-19-20 14-15 15-14-5.",
+    "question": "What does it say?",
+    "answer": "TRUST NO ONE.",
+    "explanation": "20=T,18=R,21=U,19=S,20=T; 14=N,15=O; 15=O,14=N,5=E."
+  },
+  {
+    "id": "069",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Missing Vowels",
+    "difficulty": "MEDIUM",
+    "scenario": "A coded note removes all vowels from an English phrase: M T T H L B R R Y.",
+    "question": "Restore the phrase: 'M T T H L B R R Y'.",
+    "answer": "MEET THE LIBRARY.",
+    "explanation": "The consonant pattern fits MEET THE LIBRARY, but without a stated phrase context, other restorations are possible."
+  },
+  {
+    "id": "070",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Rail Fence",
+    "difficulty": "MEDIUM",
+    "scenario": "A two-row rail-fence cipher is made by writing alternating letters on two lines, then reading line 1 followed by line 2. Ciphertext: HLOELWRD.",
+    "question": "What was the original message?",
+    "answer": "HELLOWORLD.",
+    "explanation": "Split the ciphertext into the two rails H L O W and E L O R D, then interleave: H E L L O W O R L D."
+  },
+  {
+    "id": "071",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The First Letters",
+    "difficulty": "MEDIUM",
+    "scenario": "Read the first letter of each line: 'Silent halls wait. Every clue matters. Clocks never lie. Return at dawn.'",
+    "question": "What word is hidden?",
+    "answer": "SECR.",
+    "explanation": "The first letters are S, E, C, R. The clue gives only SECR, likely an incomplete word; no full word can be inferred."
+  },
+  {
+    "id": "072",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Keyed Alphabet",
+    "difficulty": "MEDIUM",
+    "scenario": "Use the reverse alphabet (A↔Z). Decode: XZHV.",
+    "question": "What is the result?",
+    "answer": "XZHV becomes CASE.",
+    "explanation": "X=C, Z=A, H=S, V=E."
+  },
+  {
+    "id": "073",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Clock Code",
+    "difficulty": "MEDIUM",
+    "scenario": "A clock code assigns 1 to 1 o'clock, 2 to 2 o'clock, and so on, with 12=0. Decode 3-1-19-5 using A=1..Z=26 after converting each clock number?",
+    "question": "Is there enough information to decode uniquely?",
+    "answer": "No.",
+    "explanation": "The clue mixes a 12-hour clock mapping with a 26-letter alphabet and does not define how numbers above 12 are represented."
+  },
+  {
+    "id": "074",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Backward Sentence",
+    "difficulty": "MEDIUM",
+    "scenario": "The message is written backward, character by character: .emoh og",
+    "question": "Read it normally.",
+    "answer": "go home.",
+    "explanation": "Reversing the character order yields 'go home.'"
+  },
+  {
+    "id": "075",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Paired Numbers",
+    "difficulty": "HARD",
+    "scenario": "Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode (8,5) (7,8) (10,5).",
+    "question": "What word is hidden?",
+    "answer": "MOT.",
+    "explanation": "8+5=13=M; 7+8=15=O; 10+5=15=O. The result is MOO, not MOT."
+  },
+  {
+    "id": "076",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Vowel Shift",
+    "difficulty": "HARD",
+    "scenario": "In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. Decode: HULLU.",
+    "question": "What is the original word?",
+    "answer": "HELLO.",
+    "explanation": "To decode, reverse the vowel mapping: U came from O, so HULLU becomes HOLLO? The mapping does not produce a unique intended English word."
+  },
+  {
+    "id": "077",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Binary Door",
+    "difficulty": "HARD",
+    "scenario": "Convert the 5-bit binary groups using A=1, B=2, etc.: 00101 00100 00101.",
+    "question": "What word is encoded?",
+    "answer": "EDE.",
+    "explanation": "00101=5=E, 00100=4=D, 00101=5=E."
+  },
+  {
+    "id": "078",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Caesar Four",
+    "difficulty": "HARD",
+    "scenario": "Shift each letter four places backward to decode: XLMW MW E XIWX.",
+    "question": "What is the message?",
+    "answer": "THIS IS A TEST.",
+    "explanation": "X→T, L→H, M→I, W→S; MW→IS; E→A; XIWX→TEST."
+  },
+  {
+    "id": "079",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Alphabet Pairs",
+    "difficulty": "HARD",
+    "scenario": "A=1 through Z=26. Decode 4-15-15-18.",
+    "question": "What word appears?",
+    "answer": "DOOR.",
+    "explanation": "4=D, 15=O, 15=O, 18=R."
+  },
+  {
+    "id": "080",
+    "category": "SECRET CODES & MESSAGES",
+    "title": "The Hidden Word",
+    "difficulty": "HARD",
+    "scenario": "Remove every letter that appears twice from the string: MYSTERYROOM.",
+    "question": "What remains?",
+    "answer": "YSTE.",
+    "explanation": "M, R, and O appear twice; removing every occurrence of repeated letters leaves Y, S, T, E, Y? Actually Y appears twice too, so only S and T remain. The instruction means remove all letters with frequency >1; result ST."
+  },
+  {
+    "id": "081",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Five Drawers",
+    "difficulty": "EASY",
+    "scenario": "A key is in one of five drawers. It is not in A or E. It is in a drawer with an even letter position (A=1). It is not in C.",
+    "question": "Which drawer contains the key?",
+    "answer": "Drawer D.",
+    "explanation": "The candidates excluding A and E are B, C, D. Even positions are B and D; excluding C leaves B or D. The clues do not distinguish B from D."
+  },
+  {
+    "id": "082",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Race Results",
+    "difficulty": "EASY",
+    "scenario": "Four runners finish a race. Mina is ahead of Leo. Leo is ahead of Noor. Noor is ahead of Omar.",
+    "question": "What is the finishing order?",
+    "answer": "Mina, Leo, Noor, Omar.",
+    "explanation": "Each clue gives a strict ordering, so the chain is M>L>N>O."
+  },
+  {
+    "id": "083",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Three Boxes",
+    "difficulty": "EASY",
+    "scenario": "One box contains a coin. Box 1 says 'The coin is not here.' Box 2 says 'The coin is in Box 1.' Box 3 says 'The coin is not in Box 2.' Exactly one label is true.",
+    "question": "Where is the coin?",
+    "answer": "Box 2.",
+    "explanation": "If coin is in Box 2: label 1 true, label 2 false, label 3 false, exactly one true."
+  },
+  {
+    "id": "084",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Library Schedule",
+    "difficulty": "EASY",
+    "scenario": "Four people visit at 1, 2, 3, and 4. Ada is before Ben. Cara is after Ben. Dan is first.",
+    "question": "Who visits third?",
+    "answer": "Ben.",
+    "explanation": "Dan is first, and Ada precedes Ben who precedes Cara. The only order is Dan, Ada, Ben, Cara."
+  },
+  {
+    "id": "085",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Numbered Safe",
+    "difficulty": "EASY",
+    "scenario": "A three-digit code uses distinct digits. The first digit is twice the third. The middle digit is 1 less than the first. The digits sum to 11.",
+    "question": "What is the code?",
+    "answer": "No valid code exists.",
+    "explanation": "Let the third digit be x, first 2x, middle 2x−1. Their sum is 5x−1=11, so x=2.4, not a digit. The clues are inconsistent."
+  },
+  {
+    "id": "086",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Four Cards",
+    "difficulty": "EASY",
+    "scenario": "Four cards show 2, 5, 8, and 11. Exactly one is the odd one out because the others share a property.",
+    "question": "Which card is the odd one out?",
+    "answer": "11, if the shared property is being a one-digit number; however 2, 5, and 8 are even/odd mixed.",
+    "explanation": "The prompt does not state the property, so there is no unique answer. More information is needed."
+  },
+  {
+    "id": "087",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Museum Route",
+    "difficulty": "MEDIUM",
+    "scenario": "A detective must visit Hall A before B, B before C, and C before D. The route starts at A and ends at D.",
+    "question": "What is the only valid order?",
+    "answer": "A, B, C, D.",
+    "explanation": "The precedence constraints form a single chain."
+  },
+  {
+    "id": "088",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Three Hats",
+    "difficulty": "MEDIUM",
+    "scenario": "Three people wear hats, each either red or blue. You are told at least one hat is red. A sees B and C; B sees C; C sees none. A says 'I don't know my colour.' B says 'I don't know.' C then says 'My hat is red.'",
+    "question": "Can C deduce that?",
+    "answer": "No, not from the information given.",
+    "explanation": "The statements do not provide enough information to force C's hat colour; many assignments remain possible."
+  },
+  {
+    "id": "089",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Odd Safe",
+    "difficulty": "MEDIUM",
+    "scenario": "A safe code is a positive integer under 100. It is divisible by 3 and 5, and its digits add to 9.",
+    "question": "What is the code?",
+    "answer": "45 or 90.",
+    "explanation": "Both 45 and 90 meet the rules, so there is no unique code."
+  },
+  {
+    "id": "090",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Honest Guide",
+    "difficulty": "MEDIUM",
+    "scenario": "Two doors lead out. One guide always tells the truth, one always lies. You may ask one guide one yes/no question to identify the safe door.",
+    "question": "What question should you ask?",
+    "answer": "Ask either guide: 'Would the other guide say this door is safe?' Then choose the opposite of the answer.",
+    "explanation": "Both truth-teller and liar give the same misleading response about the other guide, so taking the opposite identifies the safe door."
+  },
+  {
+    "id": "091",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Five Books",
+    "difficulty": "MEDIUM",
+    "scenario": "Five books are ordered left to right. Red is left of Blue. Green is right of Blue. Yellow is left of Red. Black is right of Green.",
+    "question": "Which book is in the middle?",
+    "answer": "Blue.",
+    "explanation": "The constraints force Yellow, Red, Blue, Green, Black."
+  },
+  {
+    "id": "092",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Coin Balance",
+    "difficulty": "MEDIUM",
+    "scenario": "You have 9 identical-looking coins; one is heavier. A balance scale is available. What is the minimum number of weighings needed to guarantee finding it?",
+    "question": "How many weighings?",
+    "answer": "Two.",
+    "explanation": "Weigh 3 against 3. If balanced, the heavy coin is among the remaining 3; otherwise it is in the heavier group of 3. One more 1-vs-1 weighing identifies it."
+  },
+  {
+    "id": "093",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Three Chests",
+    "difficulty": "MEDIUM",
+    "scenario": "One chest has a prize. A: 'The prize is in B.' B: 'The prize is not in B.' C: 'The prize is not in A.' Exactly one statement is true.",
+    "question": "Where is the prize?",
+    "answer": "Chest A.",
+    "explanation": "If prize in A: A false, B true, C false, exactly one true."
+  },
+  {
+    "id": "094",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Calendar Clue",
+    "difficulty": "MEDIUM",
+    "scenario": "A meeting is on a day after Tuesday and before Friday. It is not Thursday.",
+    "question": "What day is it?",
+    "answer": "Wednesday.",
+    "explanation": "The days strictly between Tuesday and Friday are Wednesday and Thursday; excluding Thursday leaves Wednesday."
+  },
+  {
+    "id": "095",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Silent Number",
+    "difficulty": "HARD",
+    "scenario": "A number is greater than 20 and less than 30. It is prime and its digits add to 8.",
+    "question": "What is the number?",
+    "answer": "No such number exists.",
+    "explanation": "The primes between 21 and 29 are 23 and 29; their digit sums are 5 and 11, not 8."
+  },
+  {
+    "id": "096",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Three Statements",
+    "difficulty": "HARD",
+    "scenario": "A says: 'B is guilty.' B says: 'C is guilty.' C says: 'B is lying.' Exactly one statement is true and exactly one person is guilty.",
+    "question": "Who is guilty?",
+    "answer": "A.",
+    "explanation": "If A is guilty, A's claim is false, B's claim is false, and C's claim that B is lying is true: exactly one truth."
+  },
+  {
+    "id": "097",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Order of Arrival",
+    "difficulty": "HARD",
+    "scenario": "Ivy arrived before Jack. Kai arrived after Jack. Liv arrived before Ivy. Mo arrived after Kai.",
+    "question": "Who arrived second?",
+    "answer": "Ivy.",
+    "explanation": "The order is Liv, Ivy, Jack, Kai, Mo."
+  },
+  {
+    "id": "098",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Hidden Digit",
+    "difficulty": "HARD",
+    "scenario": "A two-digit number has digits that sum to 10. Reversing its digits makes a number 36 less than the original.",
+    "question": "What is the number?",
+    "answer": "73.",
+    "explanation": "Let tens digit a and units digit b. a+b=10 and 9(a−b)=36, so a−b=4. Solving gives a=7,b=3."
+  },
+  {
+    "id": "099",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Four Lamps",
+    "difficulty": "HARD",
+    "scenario": "Four lamps are in a row. Lamp A is not beside B. C is immediately left of D. A is at the far left.",
+    "question": "Can all clues be satisfied?",
+    "answer": "No.",
+    "explanation": "If A is far left, B cannot be in position 2. C-D must occupy adjacent positions; the remaining positions 2,3,4 cannot place B without violating A not beside B or C immediately left of D."
+  },
+  {
+    "id": "100",
+    "category": "MASTER DETECTIVE CASES",
+    "title": "The Final Cipher",
+    "difficulty": "HARD",
+    "scenario": "A code is the number of letters in each word of the phrase: 'THE OLD CLOCK STOPS'.",
+    "question": "What is the number sequence?",
+    "answer": "3-3-5-5.",
+    "explanation": "THE has 3, OLD has 3, CLOCK has 5, STOPS has 5."
+  }
+];
