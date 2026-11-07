@@ -222,12 +222,12 @@ window.NHR5_CASES = [
   {
     "id": "023",
     "category": "CRIMINAL DEDUCTION",
-    "title": "The One Honest Witness",
+    "title": "The Three Witnesses",
     "difficulty": "EASY",
-    "scenario": "Four witnesses make these claims: A: 'B did it.' B: 'D did it.' C: 'I did not do it.' D: 'B is lying.' Exactly one witness tells the truth; one of A, B, C, D is guilty.",
-    "question": "Who is guilty?",
-    "answer": "D is guilty.",
-    "explanation": "If D is guilty, A is false, B is true, C is true, D is false, which gives two truths; therefore this version is not consistent."
+    "scenario": "A ring was stolen by exactly one of A, B, or C. A says, 'B stole it.' B says, 'C stole it.' C says, 'B did not steal it.' Exactly one statement is true.",
+    "question": "Who stole the ring?",
+    "answer": "B.",
+    "explanation": "If B stole it, A's statement is true, while B's and C's statements are false. If A or C stole it, the truth count is not one. B is the unique solution."
   },
   {
     "id": "024",
@@ -244,10 +244,10 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Broken Vase",
     "difficulty": "EASY",
-    "scenario": "Three people were in the hall. Eli says he never touched the vase. Fran says Eli broke it. Gus says Fran was not in the hall. Camera footage proves Fran was in the hall. Exactly one statement is false.",
+    "scenario": "A vase was broken by exactly one of Eli, Fran, or Gus. Eli says, 'Fran broke it.' Fran says, 'Gus broke it.' Gus says, 'Fran is lying.' Exactly one statement is false.",
     "question": "Who broke the vase?",
-    "answer": "Eli.",
-    "explanation": "Gus's statement is false. Therefore Eli's and Fran's statements are true: Eli did not touch it and Eli broke it cannot both be true. The clues are contradictory; the case has no valid unique solution."
+    "answer": "Fran.",
+    "explanation": "If Fran broke it, Eli's statement is true, Fran's is false, and Gus's is true. That gives exactly one false statement. The other suspects do not fit."
   },
   {
     "id": "026",
@@ -264,20 +264,20 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Contradictory Alibis",
     "difficulty": "MEDIUM",
-    "scenario": "Exactly one of three suspects is lying. Alex says he was alone. Blair says Alex was with Casey. Casey says Blair was with Alex. A camera confirms Alex and Blair were together.",
+    "scenario": "A theft occurred at 8:15. Alex says, 'I was alone.' Blair says, 'Alex was with Blair.' Casey says, 'Blair was with Alex.' Camera footage confirms Alex and Blair were together. Exactly one statement is false.",
     "question": "Who is lying?",
     "answer": "Alex.",
-    "explanation": "The camera disproves Alex's claim of being alone. Blair and Casey both correctly describe Alex and Blair together, so Alex is the sole liar."
+    "explanation": "The footage disproves Alex's claim that he was alone. Blair and Casey both describe Alex and Blair being together, so their statements are true."
   },
   {
     "id": "028",
     "category": "CRIMINAL DEDUCTION",
     "title": "The Safe Combination",
     "difficulty": "MEDIUM",
-    "scenario": "The combination is a two-digit number. Dana says it is even. Omar says it is greater than 50. Priya says it is less than 40. Exactly two statements are true.",
-    "question": "What range can the combination occupy?",
-    "answer": "It must be an even number from 10 to 38, or an odd number from 51 to 99?",
-    "explanation": "As written, exactly two truths means either even and >50, or even and <40. The clues do not identify one unique number; only those ranges can be concluded."
+    "scenario": "A two-digit safe code is greater than 10 and less than 100. Dana says it is even. Omar says it is greater than 50. Priya says it is less than 40. Exactly two statements are true.",
+    "question": "What can you conclude about the code?",
+    "answer": "It must be even and either below 40 or above 50; the exact code is not determined.",
+    "explanation": "An even number below 40 makes Dana and Priya true; an even number above 50 makes Dana and Omar true. Many values fit, so the clues do not determine one exact code."
   },
   {
     "id": "029",
@@ -332,12 +332,12 @@ window.NHR5_CASES = [
   {
     "id": "034",
     "category": "CRIMINAL DEDUCTION",
-    "title": "The Four Suspects",
+    "title": "The Three Claims",
     "difficulty": "MEDIUM",
-    "scenario": "One suspect took the watch. A says B took it. B says D took it. C says B is innocent. D says C is lying. Exactly one statement is true. The guilty person always lies; the innocent people always tell the truth.",
-    "question": "Who took the watch?",
+    "scenario": "One of A, B, or C stole a watch. A says, 'B stole it.' B says, 'A stole it.' C says, 'B did not steal it.' Exactly one statement is true.",
+    "question": "Who stole the watch?",
     "answer": "B.",
-    "explanation": "If B is guilty, B's claim is false. C's claim that B is innocent is false. A and D are truthful if innocent, but A says B did it (true) and D says C is lying (true), giving more than one truth. This rule set is inconsistent."
+    "explanation": "If B stole it, A's statement is true while B's and C's are false. If A or C stole it, the truth count is two. B is the only possibility."
   },
   {
     "id": "035",
@@ -434,10 +434,10 @@ window.NHR5_CASES = [
     "category": "HIDDEN EVIDENCE",
     "title": "The Reversed Label",
     "difficulty": "EASY",
-    "scenario": "A bottle label is faded except for a clean strip where a second label once covered it. The bottle's cap is dusty.",
-    "question": "What likely happened?",
-    "answer": "A label was removed or replaced without necessarily opening the bottle.",
-    "explanation": "The clean strip records label placement, while the dusty cap suggests the cap may not have been handled recently."
+    "scenario": "A blueprint was copied by exactly one of A, B, or C. A says, 'B copied it.' B says, 'A copied it.' C says, 'B did not copy it.' Exactly one statement is true.",
+    "question": "Who copied the blueprint?",
+    "answer": "B.",
+    "explanation": "If B copied it, A's statement is true, while B's and C's are false. If A or C copied it, the number of true statements is two. B is the unique solution."
   },
   {
     "id": "045",
@@ -634,10 +634,10 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Mirror Digits",
     "difficulty": "EASY",
-    "scenario": "A note says: 'Read the digits in reverse order.' The written code is 80421.",
-    "question": "What is the reversed code?",
-    "answer": "12408.",
-    "explanation": "Reversing the order of the five digits gives 1-2-4-0-8."
+    "scenario": "Using A=0, B=1, ..., Z=25, decode 7-4-11-11-14.",
+    "question": "What word appears?",
+    "answer": "HELLO.",
+    "explanation": "7=H, 4=E, 11=L, 11=L, 14=O."
   },
   {
     "id": "065",
@@ -664,10 +664,10 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Shifted Numbers",
     "difficulty": "MEDIUM",
-    "scenario": "Using A=0, B=1, ..., Z=25, decode 7-0-12-12-14.",
-    "question": "What word appears?",
-    "answer": "HALLO.",
-    "explanation": "7=H, 0=A, 11=L, 11=L, 14=O. The given third and fourth numbers are 12, which map to M; therefore the actual decoded text is HAMMO."
+    "scenario": "A two-row rail-fence cipher was made by writing alternating letters on two lines, then reading line 1 followed by line 2. Ciphertext: HLOOLELWRD.",
+    "question": "What was the original message?",
+    "answer": "HELLOWORLD.",
+    "explanation": "Split the ciphertext into the two rails HLOOL and ELWRD, then interleave the letters: H E L L O W O R L D."
   },
   {
     "id": "068",
@@ -716,18 +716,18 @@ window.NHR5_CASES = [
     "difficulty": "MEDIUM",
     "scenario": "Use the reverse alphabet (A↔Z). Decode: XZHV.",
     "question": "What is the result?",
-    "answer": "XZHV becomes CASE.",
-    "explanation": "X=C, Z=A, H=S, V=E."
+    "answer": "MOO.",
+    "explanation": "8+5=13=M; 7+8=15=O; 10+5=15=O."
   },
   {
     "id": "073",
     "category": "SECRET CODES & MESSAGES",
     "title": "The Clock Code",
     "difficulty": "MEDIUM",
-    "scenario": "A clock code assigns 1 to 1 o'clock, 2 to 2 o'clock, and so on, with 12=0. Decode 3-1-19-5 using A=1..Z=26 after converting each clock number?",
-    "question": "Is there enough information to decode uniquely?",
-    "answer": "No.",
-    "explanation": "The clue mixes a 12-hour clock mapping with a 26-letter alphabet and does not define how numbers above 12 are represented."
+    "scenario": "In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. Decode: HILLU.",
+    "question": "What is the original word?",
+    "answer": "HELLO.",
+    "explanation": "Reverse the vowel cycle: H stays H, I came from E, L and L stay unchanged, and U came from O. The result is HELLO."
   },
   {
     "id": "074",
@@ -796,18 +796,18 @@ window.NHR5_CASES = [
     "difficulty": "HARD",
     "scenario": "Remove every letter that appears twice from the string: MYSTERYROOM.",
     "question": "What remains?",
-    "answer": "YSTE.",
-    "explanation": "M, R, and O appear twice; removing every occurrence of repeated letters leaves Y, S, T, E, Y? Actually Y appears twice too, so only S and T remain. The instruction means remove all letters with frequency >1; result ST."
+    "answer": "ST.",
+    "explanation": "M, Y, R, and O appear more than once. Removing every occurrence of those repeated letters leaves S and T."
   },
   {
     "id": "081",
     "category": "MASTER DETECTIVE CASES",
     "title": "The Five Drawers",
     "difficulty": "EASY",
-    "scenario": "A key is in one of five drawers. It is not in A or E. It is in a drawer with an even letter position (A=1). It is not in C.",
+    "scenario": "A key is in one of five drawers. It is not in A or E. It is in a drawer with an even letter position (A=1). It is not in C. A final note says it is in the drawer immediately before E.",
     "question": "Which drawer contains the key?",
     "answer": "Drawer D.",
-    "explanation": "The candidates excluding A and E are B, C, D. Even positions are B and D; excluding C leaves B or D. The clues do not distinguish B from D."
+    "explanation": "The drawer immediately before E is D. D also has an even position and is neither A, C, nor E."
   },
   {
     "id": "082",
@@ -826,8 +826,8 @@ window.NHR5_CASES = [
     "difficulty": "EASY",
     "scenario": "One box contains a coin. Box 1 says 'The coin is not here.' Box 2 says 'The coin is in Box 1.' Box 3 says 'The coin is not in Box 2.' Exactly one label is true.",
     "question": "Where is the coin?",
-    "answer": "Box 2.",
-    "explanation": "If coin is in Box 2: label 1 true, label 2 false, label 3 false, exactly one true."
+    "answer": "Drawer B.",
+    "explanation": "If the prize is in B, only label 1 is true: the prize is not in A. Label 2 ('in A') is false and label 3 ('not in B') is false. If it is in A or C, two labels are true."
   },
   {
     "id": "084",
@@ -856,8 +856,8 @@ window.NHR5_CASES = [
     "difficulty": "EASY",
     "scenario": "Four cards show 2, 5, 8, and 11. Exactly one is the odd one out because the others share a property.",
     "question": "Which card is the odd one out?",
-    "answer": "11, if the shared property is being a one-digit number; however 2, 5, and 8 are even/odd mixed.",
-    "explanation": "The prompt does not state the property, so there is no unique answer. More information is needed."
+    "answer": "Yes: A, C, D, B.",
+    "explanation": "Place A first, C second, D third, and B fourth. C is immediately left of D, and B is not beside A."
   },
   {
     "id": "087",
