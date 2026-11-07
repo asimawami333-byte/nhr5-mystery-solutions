@@ -2,7 +2,11 @@
 
 ## 100 Extreme Mystery Puzzles
 
-**NHR5**
+### NHR5
+
+---
+
+**A collection of 100 cases for curious minds and master detectives.**
 
 ---
 
@@ -10,9 +14,9 @@
 
 One hundred cases stand between you and the truth. Read every clue carefully, question every assumption, and write down your conclusion before moving to the next case.
 
-- Each case has one challenge question.
-- Some cases test deduction; others test observation, codes, or careful interpretation.
-- If the evidence does not support one definite answer, the correct detective's response may be that the information is insufficient.
+- Each case presents a mystery and a challenge question.
+- The five sections test deduction, observation, codes, and careful interpretation.
+- Some cases intentionally ask you to identify when the evidence is insufficient or when the stated conditions cannot all be true.
 - Answers and explanations are intentionally excluded from this book.
 
 ## Contents
@@ -35,7 +39,7 @@ A study is locked. The only window is painted shut, the fireplace is too narrow 
 
 **CHALLENGE:** How could the room have been locked from the inside if the key was on the desk?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -47,7 +51,7 @@ Outside a sealed room are three switches. Inside is one old lamp. You may operat
 
 **CHALLENGE:** How can you identify the lamp's switch?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -57,9 +61,9 @@ Outside a sealed room are three switches. Inside is one old lamp. You may operat
 
 A person is found in a locked room. Snow lies undisturbed outside the only window, and the window is locked from within. A puddle is beneath an open ice tray.
 
-**CHALLENGE:** What most likely explains the apparent impossible entry?
+**CHALLENGE:** What can the clues establish about the window?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -71,7 +75,7 @@ A vault door locks automatically at 8:00. The guard says he entered at 8:05 and 
 
 **CHALLENGE:** When did the guard's code open the door?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -83,7 +87,7 @@ A room is flooded, but a paper note on a chair is perfectly dry. The chair stand
 
 **CHALLENGE:** What is the simplest explanation for the dry note?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -95,7 +99,7 @@ A museum room has one door with an inward-facing latch. The latch can only be en
 
 **CHALLENGE:** Can the visitor's account be true?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -107,7 +111,7 @@ A locked cellar contains a candle that is still smoking. The wick is short, and 
 
 **CHALLENGE:** What can be concluded with certainty?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -119,7 +123,7 @@ A person is found on the 12th floor. The elevator stopped at floors 4, 8, and 12
 
 **CHALLENGE:** What does the elevator record establish?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -131,7 +135,7 @@ A key lies on the floor just inside a locked door. A thin strip of paper is push
 
 **CHALLENGE:** How could the key have been moved without opening the door?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -143,7 +147,7 @@ Ash covers the fireplace floor, but there are no footprints in it. The chimney i
 
 **CHALLENGE:** What does the absence of footprints tell you?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -155,7 +159,7 @@ A cabinet is locked, yet a document inside has been replaced. The cabinet's key 
 
 **CHALLENGE:** What is the only safe conclusion?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -167,7 +171,7 @@ A station office is locked at 9:00. A wet umbrella is found inside, but the last
 
 **CHALLENGE:** What does the umbrella suggest?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -179,7 +183,7 @@ A jewel disappears from a locked room. A skylight is open, but a fine dust layer
 
 **CHALLENGE:** Was the skylight used?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -191,7 +195,7 @@ A bolt is found slid shut on the inside of a room. The door opens outward, and a
 
 **CHALLENGE:** How could the bolt have been slid after the door closed?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -203,7 +207,7 @@ A locked room is discovered at 6:00. The metal door handle is warm, but the corr
 
 **CHALLENGE:** What does the warm handle prove?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -215,7 +219,7 @@ A window is 4 metres above the ground. A ladder is found nearby, but its rungs a
 
 **CHALLENGE:** What is the strongest inference?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -227,7 +231,7 @@ A room has two locks: a key lock and a keypad. The key lock is engaged, but the 
 
 **CHALLENGE:** What does the log prove?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -239,7 +243,7 @@ A locked room has one dusty floor. A clear trail leads from the desk to the door
 
 **CHALLENGE:** What is the most reasonable explanation?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -251,7 +255,7 @@ A locked drawer is opened without its key. A small puddle and a fragment of clea
 
 **CHALLENGE:** What was likely used?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -263,7 +267,7 @@ A sealed room is found open, but the wax seal across the doorframe is unbroken a
 
 **CHALLENGE:** What must be questioned first?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -277,7 +281,7 @@ Ava says, 'Ben stole the ring.' Ben says, 'Ava stole the ring.' Cara says, 'Ava 
 
 **CHALLENGE:** Who stole the ring?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -289,7 +293,7 @@ A theft occurred at 8:15. Leo says he was at the cinema. A dated photograph prov
 
 **CHALLENGE:** What does the evidence establish?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -301,7 +305,7 @@ A ring was stolen by exactly one of A, B, or C. A says, 'B stole it.' B says, 'A
 
 **CHALLENGE:** Who stole the ring?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -313,7 +317,7 @@ Mira says, 'Noah took the file.' Noah says, 'Mira is innocent.' Exactly one stat
 
 **CHALLENGE:** Who took the file?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -325,7 +329,7 @@ A vase was broken by exactly one of Eli, Fran, or Gus. Eli says, 'Fran broke it.
 
 **CHALLENGE:** Who broke the vase?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -337,7 +341,7 @@ A ledger vanished between 2 and 3. Only Kim, Luis, and Mei had access. Kim's car
 
 **CHALLENGE:** Whose card was used latest before discovery?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -349,7 +353,7 @@ A theft occurred at 8:15. Alex says, 'I was alone.' Blair says, 'Alex was with B
 
 **CHALLENGE:** Who is lying?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -361,7 +365,7 @@ A two-digit safe code is greater than 10 and less than 100. Dana says it is even
 
 **CHALLENGE:** What can you conclude about the code?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -373,7 +377,7 @@ A red scarf is found at the scene. Only Jo, Kai, and Liv own red scarves. Jo's s
 
 **CHALLENGE:** Whose scarf was found?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -385,7 +389,7 @@ A message was sent from a suspect's phone at 9:03. The phone was in the evidence
 
 **CHALLENGE:** What is the strongest conclusion?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -397,7 +401,7 @@ Only one key opens the office. Red opens the lab. Blue opens the office or the s
 
 **CHALLENGE:** Which key opens the office?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -409,7 +413,7 @@ A witness says the suspect wore a blue coat. The street camera is black-and-whit
 
 **CHALLENGE:** Can the coat colour be treated as confirmed?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -421,7 +425,7 @@ The gallery was entered by exactly one of three people after closing. Nia says s
 
 **CHALLENGE:** Which claim is definitely false?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -433,7 +437,7 @@ One of A, B, or C stole a watch. A says, 'B stole it.' B says, 'A stole it.' C s
 
 **CHALLENGE:** Who stole the watch?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -445,7 +449,7 @@ A muddy print at the scene matches the size of Pat's shoe. Pat's shoes are commo
 
 **CHALLENGE:** What can the print prove?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -457,7 +461,7 @@ A suspect claims to have exited through the east door. The east-door alarm never
 
 **CHALLENGE:** Which exit is supported by the alarm record?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -469,7 +473,7 @@ A sealed envelope containing the answer key is found opened. The seal's serial n
 
 **CHALLENGE:** What is the key issue?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -481,7 +485,7 @@ A suspect's phone log shows no incoming or outgoing calls between 6 and 8. A wit
 
 **CHALLENGE:** What follows?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -493,7 +497,7 @@ A blueprint was copied by exactly one of A, B, or C. A says, 'B copied it.' B sa
 
 **CHALLENGE:** Who copied the blueprint?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -505,7 +509,7 @@ The lab door opens only with a personal code. The log records code 314 at 10:04.
 
 **CHALLENGE:** Whose code was used?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -519,7 +523,7 @@ A dusty shelf has one clean rectangle exactly the size of a small frame. No fram
 
 **CHALLENGE:** What is the strongest inference?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -531,7 +535,7 @@ A suspect says the room was empty all night. A glass of ice water is half full a
 
 **CHALLENGE:** What does the dry coaster suggest?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -543,7 +547,7 @@ A corridor floor is dry, but one umbrella is dripping. The building's entrance m
 
 **CHALLENGE:** What can you infer?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -555,7 +559,7 @@ A bottle label is faded except for a clean strip where a second label once cover
 
 **CHALLENGE:** What likely happened?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -567,7 +571,7 @@ A book's binding is intact, but page numbers jump from 42 to 45. The torn edges 
 
 **CHALLENGE:** What does this show?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -579,7 +583,7 @@ Wax drips run down the side of a candle, but the candle holder has no pooled wax
 
 **CHALLENGE:** What does that suggest?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -591,7 +595,7 @@ A keyboard is dusty except for the space bar and Enter key.
 
 **CHALLENGE:** What is the cautious inference?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -603,7 +607,7 @@ A wet footprint appears on a dry tile floor, but there is no trail leading to or
 
 **CHALLENGE:** What does the isolated print establish?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -615,7 +619,7 @@ A bookmark is bent at page 88, but the book is open at page 102.
 
 **CHALLENGE:** What is the likely explanation?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -627,7 +631,7 @@ A painted door is dry except for a thumb-sized wet patch near the handle.
 
 **CHALLENGE:** What does the patch suggest?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -639,7 +643,7 @@ A circular salt mark is found on a wooden table, but no glass is present.
 
 **CHALLENGE:** What is the most likely source?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -651,7 +655,7 @@ A printer tray contains a warm sheet of paper. The printer's job history is empt
 
 **CHALLENGE:** What possibilities remain?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -663,7 +667,7 @@ A lock has fresh scratches around its keyway, but the correct key is found besid
 
 **CHALLENGE:** What does this evidence suggest?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -675,7 +679,7 @@ A framed photograph has a lighter rectangle on the wall behind it, but the frame
 
 **CHALLENGE:** What can be inferred?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -687,7 +691,7 @@ A chair seat is warm in an otherwise cool room. No one is visible.
 
 **CHALLENGE:** What can be concluded?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -699,7 +703,7 @@ A refrigerator has a clean circle amid dust, but no magnet is present.
 
 **CHALLENGE:** What does the circle indicate?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -711,7 +715,7 @@ A thread is caught in a door hinge. Its loose end is frayed, not cut.
 
 **CHALLENGE:** What is the safest inference?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -723,7 +727,7 @@ A fresh ink blot sits on top of an older coffee stain.
 
 **CHALLENGE:** Which happened first?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -735,7 +739,7 @@ A cabinet is dusty except for its handle, which is clean.
 
 **CHALLENGE:** What does that suggest?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -747,7 +751,7 @@ A ticket stub is torn diagonally, and the matching half is missing. The printed 
 
 **CHALLENGE:** What is the strongest conclusion?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -761,7 +765,7 @@ Decode the message using Atbash, where A maps to Z, B to Y, and so on: GSV XLWV 
 
 **CHALLENGE:** What does the message say?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -773,7 +777,7 @@ Each letter was shifted three places forward to encode this message: PHHW DW GDZ
 
 **CHALLENGE:** Decode it by shifting each letter back three places.
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -785,11 +789,11 @@ A code uses A=1, B=2, ..., Z=26. Decode: 13-9-4-14-9-7-8-20.
 
 **CHALLENGE:** What word is hidden?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
-## CASE 064: The Mirror Digits
+## CASE 064: The Zero-Based Alphabet
 
 **Difficulty:** EASY
 
@@ -797,7 +801,7 @@ Using A=0, B=1, ..., Z=25, decode 7-4-11-11-14.
 
 **CHALLENGE:** What word appears?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -809,7 +813,7 @@ The message is hidden in every second letter. Read positions 2, 4, 6, and 8 of t
 
 **CHALLENGE:** What is the message?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -821,19 +825,19 @@ A note contains: ... --- ...
 
 **CHALLENGE:** What does it mean in Morse code?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
-## CASE 067: The Shifted Numbers
+## CASE 067: The Five-Letter Number Code
 
 **Difficulty:** MEDIUM
 
-A two-row rail-fence cipher was made by writing alternating letters on two lines, then reading line 1 followed by line 2. Ciphertext: HLOOLELWRD.
+A=1, B=2, ..., Z=26. Decode the sequence 19-8-1-4-15-23.
 
-**CHALLENGE:** What was the original message?
+**CHALLENGE:** What word is hidden?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -845,7 +849,7 @@ A=1 through Z=26. Decode 20-18-21-19-20 14-15 15-14-5.
 
 **CHALLENGE:** What does it say?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -857,7 +861,7 @@ A coded note removes all vowels from an English phrase: M T T H L B R R Y.
 
 **CHALLENGE:** Restore the phrase: 'M T T H L B R R Y'.
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -869,7 +873,7 @@ A two-row rail-fence cipher is made by writing alternating letters on two lines,
 
 **CHALLENGE:** What was the original message?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -877,11 +881,11 @@ A two-row rail-fence cipher is made by writing alternating letters on two lines,
 
 **Difficulty:** MEDIUM
 
-Read the first letter of each line: 'Silent halls wait. Every clue matters. Clocks never lie. Return at dawn.'
+Read the first letter of each line: 'Silent corridors hide secrets. All clues matter. Footsteps fade quickly. Every shadow has a story.'
 
-**CHALLENGE:** What word is hidden?
+**CHALLENGE:** What four-letter word is hidden?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -889,11 +893,11 @@ Read the first letter of each line: 'Silent halls wait. Every clue matters. Cloc
 
 **Difficulty:** MEDIUM
 
-Use the reverse alphabet (A↔Z). Decode: XZHV.
+Use the reverse alphabet (A↔Z, B↔Y, and so on). Decode: XZHV.
 
 **CHALLENGE:** What is the result?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -905,7 +909,7 @@ In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. De
 
 **CHALLENGE:** What is the original word?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -917,7 +921,7 @@ The message is written backward, character by character: .emoh og
 
 **CHALLENGE:** Read it normally.
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -929,7 +933,7 @@ Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode
 
 **CHALLENGE:** What word is hidden?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -937,11 +941,11 @@ Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode
 
 **Difficulty:** HARD
 
-In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. Decode: HULLU.
+In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. Decode: SICRIT.
 
-**CHALLENGE:** What is the original word?
+**CHALLENGE:** What original word is encoded?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -949,11 +953,11 @@ In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. De
 
 **Difficulty:** HARD
 
-Convert the 5-bit binary groups using A=1, B=2, etc.: 00101 00100 00101.
+Convert each 5-bit binary group to a number, then use A=1, B=2, ..., Z=26: 01000 00101 01100 01100 01111.
 
 **CHALLENGE:** What word is encoded?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -965,7 +969,7 @@ Shift each letter four places backward to decode: XLMW MW E XIWX.
 
 **CHALLENGE:** What is the message?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -977,7 +981,7 @@ A=1 through Z=26. Decode 4-15-15-18.
 
 **CHALLENGE:** What word appears?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -989,7 +993,7 @@ Remove every letter that appears twice from the string: MYSTERYROOM.
 
 **CHALLENGE:** What remains?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1003,7 +1007,7 @@ A key is in one of five drawers. It is not in A or E. It is in a drawer with an 
 
 **CHALLENGE:** Which drawer contains the key?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1015,7 +1019,7 @@ Four runners finish a race. Mina is ahead of Leo. Leo is ahead of Noor. Noor is 
 
 **CHALLENGE:** What is the finishing order?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1027,7 +1031,7 @@ One box contains a coin. Box 1 says 'The coin is not here.' Box 2 says 'The coin
 
 **CHALLENGE:** Where is the coin?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1039,7 +1043,7 @@ Four people visit at 1, 2, 3, and 4. Ada is before Ben. Cara is after Ben. Dan i
 
 **CHALLENGE:** Who visits third?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1051,7 +1055,7 @@ A three-digit code uses distinct digits. The first digit is twice the third. The
 
 **CHALLENGE:** What is the code?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1059,11 +1063,11 @@ A three-digit code uses distinct digits. The first digit is twice the third. The
 
 **Difficulty:** EASY
 
-Four cards show 2, 5, 8, and 11. Exactly one is the odd one out because the others share a property.
+Four cards show 2, 5, 8, and 11. Exactly three cards are prime numbers; one card is not prime.
 
 **CHALLENGE:** Which card is the odd one out?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1075,7 +1079,7 @@ A detective must visit Hall A before B, B before C, and C before D. The route st
 
 **CHALLENGE:** What is the only valid order?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1087,7 +1091,7 @@ Three people wear hats, each either red or blue. You are told at least one hat i
 
 **CHALLENGE:** Can C deduce that?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1099,7 +1103,7 @@ A safe code is a positive integer under 100. It is divisible by 3 and 5, and its
 
 **CHALLENGE:** What is the code?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1111,7 +1115,7 @@ Two doors lead out. One guide always tells the truth, one always lies. You may a
 
 **CHALLENGE:** What question should you ask?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1123,7 +1127,7 @@ Five books are ordered left to right. Red is left of Blue. Green is right of Blu
 
 **CHALLENGE:** Which book is in the middle?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1135,7 +1139,7 @@ You have 9 identical-looking coins; one is heavier. A balance scale is available
 
 **CHALLENGE:** How many weighings?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1147,7 +1151,7 @@ One chest has a prize. A: 'The prize is in B.' B: 'The prize is not in B.' C: 'T
 
 **CHALLENGE:** Where is the prize?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1159,7 +1163,7 @@ A meeting is on a day after Tuesday and before Friday. It is not Thursday.
 
 **CHALLENGE:** What day is it?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1171,7 +1175,7 @@ A number is greater than 20 and less than 30. It is prime and its digits add to 
 
 **CHALLENGE:** What is the number?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1183,7 +1187,7 @@ A says, 'B is guilty.' B says, 'A is guilty.' C says, 'B is guilty.' Exactly one
 
 **CHALLENGE:** Who is guilty?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1195,7 +1199,7 @@ Ivy arrived before Jack. Kai arrived after Jack. Liv arrived before Ivy. Mo arri
 
 **CHALLENGE:** Who arrived second?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1207,7 +1211,7 @@ A two-digit number has digits that sum to 10. Reversing its digits makes a numbe
 
 **CHALLENGE:** What is the number?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1219,7 +1223,7 @@ Four lamps are in a row. Lamp A is not beside B. C is immediately left of D. A i
 
 **CHALLENGE:** Can all clues be satisfied?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
@@ -1231,15 +1235,15 @@ A code is the number of letters in each word of the phrase: 'THE OLD CLOCK STOPS
 
 **CHALLENGE:** What is the number sequence?
 
-**Your conclusion:** __________________________________________
+**Your conclusion:** ______________________________________________
 
 ---
 
 # UNLOCK THE SOLUTIONS
 
-Finished the challenge? Visit the official NHR5 answer companion to reveal all 100 solutions and read the explanations.
+Finished the challenge? Visit the official NHR5 answer companion to reveal all 100 solutions and read their explanations.
 
-**Website:** https://asimawami333-byte.github.io/nhr5-mystery-solutions/
+**Official website:** https://asimawami333-byte.github.io/nhr5-mystery-solutions/
 
 Scan the QR code printed on this page to open the website instantly.
 
