@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="Official NHR5 answer companion for The Ultimate Mystery Challenge.">
+<title>NHR5 | Mystery Solutions</title>
+<style>
+:root{--bg:#101010;--panel:#191919;--panel2:#222;--gold:#d7b66b;--gold2:#f0d99e;--ink:#f5f1e8;--muted:#b8b1a3;--line:#393326}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#292316 0,#101010 45%);color:var(--ink);font:16px/1.6 Georgia,serif}
+.wrap{width:min(920px,92%);margin:auto}.hero{text-align:center;padding:52px 16px 34px}.brand{font:800 42px/1 Arial,sans-serif;letter-spacing:8px;color:var(--gold)}.eyebrow{color:var(--gold2);font:12px Arial,sans-serif;letter-spacing:3px;margin-top:18px}.hero h1{font:700 clamp(25px,5vw,40px)/1.15 Arial,sans-serif;margin:14px 0 8px}.hero p{color:var(--muted);margin:0}.rule{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:22px auto;max-width:560px}
+.notice{border:1px solid var(--line);background:#171510;border-radius:12px;padding:14px 16px;color:var(--muted);font:14px/1.5 Arial,sans-serif;margin:0 auto 24px;max-width:760px}
+.controls{display:flex;gap:10px;margin:0 auto 22px;max-width:760px}.controls input{flex:1;min-width:0;background:#1c1c1c;border:1px solid #51452d;border-radius:9px;padding:13px 14px;color:var(--ink);font-size:15px;outline:none}.controls input:focus{border-color:var(--gold)}
+.count{color:var(--gold);font:12px Arial,sans-serif;letter-spacing:1px;margin:0 0 12px}
+.case{background:linear-gradient(145deg,#1d1d1d,#151515);border:1px solid var(--line);border-radius:14px;padding:20px;margin:0 0 14px;box-shadow:0 8px 28px #0003}.case-top{display:flex;justify-content:space-between;gap:12px;align-items:center}.case-no{color:var(--gold);font:700 12px Arial,sans-serif;letter-spacing:1.5px}.tag{border:1px solid #5a4b2d;border-radius:99px;padding:4px 9px;color:var(--gold2);font:11px Arial,sans-serif}.case h2{font:700 21px/1.25 Arial,sans-serif;margin:10px 0 8px}.question{color:#ded8cb;margin:0 0 14px}.reveal{background:var(--gold);color:#15120b;border:0;border-radius:8px;padding:11px 16px;font-weight:700;cursor:pointer;font:700 13px Arial,sans-serif;letter-spacing:.5px}.reveal:hover{background:var(--gold2)}.answer{display:none;margin-top:17px;padding:15px;border-left:3px solid var(--gold);background:#111;border-radius:0 9px 9px 0}.answer.show{display:block}.answer strong{color:var(--gold2);font-family:Arial,sans-serif}.answer p{margin:7px 0 0;color:#ddd7ca}.empty{display:none;text-align:center;color:var(--muted);padding:28px}.footer{text-align:center;color:#817967;font:12px Arial,sans-serif;padding:30px 0 42px}.footer b{color:var(--gold);letter-spacing:2px}
+@media(max-width:560px){.hero{padding-top:38px}.brand{font-size:36px}.controls{flex-direction:column}.case{padding:16px}.case h2{font-size:19px}}
+</style>
+</head>
+<body>
+<header class="hero wrap">
+  <div class="brand">NHR5</div>
+  <div class="eyebrow">THE OFFICIAL ANSWER COMPANION</div>
+  <h1>Mystery Solutions</h1>
+  <p>Think carefully. Then reveal the truth.</p>
+  <div class="rule"></div>
+  <p style="font:13px Arial,sans-serif;color:#c9bd9f">THE ULTIMATE MYSTERY CHALLENGE · 100 EXTREME MYSTERY PUZZLES</p>
+</header>
+<main class="wrap">
+  <div class="notice"><strong style="color:#e6cc8d">Reader's note:</strong> Try each case in your book before revealing its answer. This website is the official companion to the NHR5 puzzle collection.</div>
+  <div class="controls"><input id="search" type="search" placeholder="Search by case number or title…" aria-label="Search cases"></div>
+  <div class="count" id="count">PREVIEW CASES · 5</div>
+  <section id="cases" aria-live="polite">
+    <article class="case" data-search="001 the three accusations criminal deduction">
+      <div class="case-top"><span class="case-no">CASE 001</span><span class="tag">CRIMINAL DEDUCTION</span></div>
+      <h2>The Three Accusations</h2>
+      <p class="question">Exactly one person stole the diamond, and exactly one of the three statements is true. Who stole it?</p>
+      <button class="reveal" type="button" aria-expanded="false">REVEAL ANSWER</button>
+      <div class="answer"><strong>ANSWER: BEN</strong><p>If Ben stole the diamond, Ava's accusation is true, while Ben's and Cara's statements are false. That gives exactly one true statement. If Ava stole it, two statements would be true; if Cara stole it, none would be true. Ben is the only possible thief.</p></div>
+    </article>
+    <article class="case" data-search="002 the silent vault locked room">
+      <div class="case-top"><span class="case-no">CASE 002</span><span class="tag">LOCKED-ROOM MYSTERIES</span></div>
+      <h2>The Silent Vault</h2>
+      <p class="question">Which employee access card opened the vault during the disappearance window?</p>
+      <button class="reveal" type="button" aria-expanded="false">REVEAL ANSWER</button>
+      <div class="answer"><strong>ANSWER: DANIEL'S ACCESS CARD</strong><p>The access log records Daniel's card as the only successful vault entry between 9:00 and 9:10 p.m. The other listed cards were used at different locations. This identifies the card used, but does not independently prove who physically carried it.</p></div>
+    </article>
+    <article class="case" data-search="003 the dusty rectangle hidden evidence">
+      <div class="case-top"><span class="case-no">CASE 003</span><span class="tag">HIDDEN EVIDENCE</span></div>
+      <h2>The Dusty Rectangle</h2>
+      <p class="question">What does the dust pattern suggest, and what does it fail to prove?</p>
+      <button class="reveal" type="button" aria-expanded="false">REVEAL ANSWER</button>
+      <div class="answer"><strong>ANSWER: AN OBJECT WAS RECENTLY REMOVED OR MOVED</strong><p>The dust-free rectangle suggests that an object had been resting in that spot and was moved. Its shape may fit a large book, but the pattern alone cannot prove that the missing journal was there or identify who moved it.</p></div>
+    </article>
+    <article class="case" data-search="004 the message in the mirror secret codes">
+      <div class="case-top"><span class="case-no">CASE 004</span><span class="tag">SECRET CODES &amp; MESSAGES</span></div>
+      <h2>The Message in the Mirror</h2>
+      <p class="question">Decode the Atbash message: GSV WLLI RH ZQZI.</p>
+      <button class="reveal" type="button" aria-expanded="false">REVEAL ANSWER</button>
+      <div class="answer"><strong>ANSWER: THE DOOR IS AJAR</strong><p>Atbash replaces each letter with its opposite in the alphabet: A with Z, B with Y, C with X, and so on. Applying it to the ciphertext gives “THE DOOR IS AJAR.”</p></div>
+    </article>
+    <article class="case" data-search="005 the four envelopes master detective">
+      <div class="case-top"><span class="case-no">CASE 005</span><span class="tag">MASTER DETECTIVE CASES</span></div>
+      <h2>The Four Envelopes</h2>
+      <p class="question">Exactly two envelope statements are true. Which envelope contains the key?</p>
+      <button class="reveal" type="button" aria-expanded="false">REVEAL ANSWER</button>
+      <div class="answer"><strong>ANSWER: ENVELOPE C</strong><p>If the key is in C, statements A and D are true, while B and C are false. That gives exactly two true statements. If the key is in A, B, or D, the number of true statements is not two. Therefore, the key is in C.</p></div>
+    </article>
+  </section>
+  <div class="empty" id="empty">No matching cases. Try another search.</div>
+</main>
+<footer class="footer wrap"><div class="rule"></div><b>NHR5</b><p>THINK LIKE A MASTER DETECTIVE.</p><p>Official companion website · More cases will be added as the book is completed.</p></footer>
+<script>
+const search=document.getElementById('search'), cards=[...document.querySelectorAll('.case')], empty=document.getElementById('empty'), count=document.getElementById('count');
+function filter(){const q=search.value.trim().toLowerCase();let n=0;cards.forEach(c=>{const show=c.dataset.search.includes(q);c.hidden=!show;if(show)n++});empty.style.display=n?'none':'block';count.textContent='PREVIEW CASES · '+n}
+search.addEventListener('input',filter);
+document.querySelectorAll('.reveal').forEach(b=>b.addEventListener('click',()=>{const a=b.nextElementSibling;const open=a.classList.toggle('show');b.textContent=open?'HIDE ANSWER':'REVEAL ANSWER';b.setAttribute('aria-expanded',String(open))}));
+</script>
+</body>
+</html>
