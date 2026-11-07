@@ -754,10 +754,10 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Vowel Shift",
     "difficulty": "HARD",
-    "scenario": "In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. Decode: HULLU.",
-    "question": "What is the original word?",
-    "answer": "HELLO.",
-    "explanation": "To decode, reverse the vowel mapping: U came from O, so HULLU becomes HOLLO? The mapping does not produce a unique intended English word."
+    "scenario": "In this cipher, A→E, E→I, I→O, O→U, U→A; consonants stay unchanged. Decode: SICRIT.",
+    "question": "What original word is encoded?",
+    "answer": "SECRET.",
+    "explanation": "Reverse the vowel shift: I decodes to E. The consonants remain unchanged, so S-I-C-R-I-T becomes S-E-C-R-E-T."
   },
   {
     "id": "077",
