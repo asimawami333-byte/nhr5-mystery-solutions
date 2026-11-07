@@ -957,7 +957,7 @@ window.NHR5_CASES = [
     "scenario": "A says, 'B is guilty.' B says, 'A is guilty.' C says, 'B is guilty.' Exactly one statement is true, and exactly one person is guilty.",
     "question": "Who is guilty?",
     "answer": "A.",
-    "explanation": "If A is guilty, all three statements are false? A's claim that B is guilty is false, B's claim that A is guilty is true, and C's claim that B is guilty is false: exactly one true. If B is guilty, A and C are both true; if C is guilty, all are false."
+    "explanation": "If A is guilty, B's statement is true while A's and C's are false, giving exactly one true statement. If B is guilty, A's and C's statements are both true. If C is guilty, all three statements are false."
   },
   {
     "id": "097",
