@@ -675,7 +675,7 @@ A lock has fresh scratches around its keyway, but the correct key is found besid
 
 **Difficulty:** MEDIUM
 
-A framed photograph has a lighter rectangle on the wall behind it, but the frame is still hanging there.
+A framed photograph hangs on a wall. A lighter rectangular outline is visible around its edges, suggesting that the wall was covered differently at some point.
 
 **CHALLENGE:** What can be inferred?
 
