@@ -71,7 +71,7 @@ A person is found in a locked room. Snow lies undisturbed outside the only windo
 
 **Difficulty:** EASY
 
-A vault door locks automatically at 8:00. The guard says he entered at 8:05 and found it locked, but the entry log shows his code used at 7:58.
+A vault door locks automatically at 8:00. The guard claims he first used his code to enter at 8:05, but the entry log records his code successfully unlocking the door at 7:58.
 
 **CHALLENGE:** Which part of the guard's account conflicts with the log?
 
@@ -1075,7 +1075,7 @@ Four cards show 2, 5, 8, and 11. Exactly three cards are prime numbers; one card
 
 **Difficulty:** MEDIUM
 
-A detective must visit Hall A before B, B before C, and C before D. The route starts at A and ends at D.
+A museum has exactly four halls: A, B, C, and D. A detective must visit Hall A before B, B before C, and C before D. The route starts at A and ends at D.
 
 **CHALLENGE:** What is the only valid order?
 
