@@ -31,7 +31,8 @@
   .scenario{font-size:14pt;line-height:1.65;margin:0 0 30px}
   .challenge{font:700 13pt Arial,sans-serif;line-height:1.5;border-top:1px solid #aaa;padding-top:20px;margin-bottom:18px}
   .write-label{font:700 9pt Arial,sans-serif;letter-spacing:1.5px;color:#666;margin:4px 0 10px}
-  .writing-lines{flex:1;min-height:2.8in;background:repeating-linear-gradient(to bottom,transparent 0,transparent 31px,#cfcfcf 32px)}
+  .writing-lines{height:3.2in;flex:none;margin-top:2px;display:grid;grid-template-rows:repeat(8,1fr);width:100%}
+  .write-line{display:block;width:100%;border-bottom:1px solid #bdbdbd;min-height:0}
   .case-footer{margin-top:18px;font:8pt Arial,sans-serif;letter-spacing:1px;color:#777;display:flex;justify-content:space-between}
   .folio{position:absolute;bottom:.34in;left:.72in;right:.72in;border-top:1px solid #ddd;padding-top:8px;display:flex;justify-content:space-between;font:8pt Arial,sans-serif;color:#777;letter-spacing:1px}
   .qr-page{align-items:center;text-align:center;justify-content:center}
@@ -1115,7 +1116,7 @@
   const section=sections.find(s=>Number(item.id)>=s.start&&Number(item.id)<=s.end);
   const el=document.createElement('section'); el.className='page';
   el.innerHTML='<div class="case-head"><div class="case-label">'+esc(section?section.name:'CASE FILE')+' · CASE '+esc(item.id)+'</div><h2 class="case-title">'+esc(item.title)+'</h2><div class="difficulty">DIFFICULTY: '+esc(item.difficulty)+'</div></div>'+
-   '<p class="scenario">'+esc(item.scenario)+'</p><div class="challenge">CHALLENGE: '+esc(item.question)+'</div><div class="write-label">YOUR CONCLUSION</div><div class="writing-lines"></div>'+
+   '<p class="scenario">'+esc(item.scenario)+'</p><div class="challenge">CHALLENGE: '+esc(item.question)+'</div><div class="write-label">YOUR CONCLUSION</div><div class="writing-lines">'+Array.from({length:8},()=>'<div class="write-line"></div>').join('')+'</div>'+
    '<div class="folio"><span>NHR5 · THE ULTIMATE MYSTERY CHALLENGE</span><span>PAGE '+page+'</span></div>';
   book.appendChild(el); page++;
  });
