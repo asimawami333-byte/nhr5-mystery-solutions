@@ -1,6 +1,6 @@
 # THE ULTIMATE MYSTERY CHALLENGE
 
-## 100 Extreme Mystery Puzzles
+## 100 Mystery Puzzles for Detective Minds
 
 ### NHR5
 
