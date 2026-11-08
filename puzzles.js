@@ -4,20 +4,20 @@ window.NHR5_CASES = [
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The Sealed Study",
     "difficulty": "EASY",
-    "scenario": "A study is locked. The only window is painted shut, the fireplace is too narrow for a person, and the key is found on the desk inside. The door has no damage.",
-    "question": "How could the room have been locked from the inside if the key was on the desk?",
-    "answer": "The key was left inside before the door was pulled shut; the lock is a spring latch that locks automatically.",
-    "explanation": "A spring latch can engage when the door closes without a key. Nothing in the clues says the lock needs a key from the inside."
+    "scenario": "A study has a self-latching spring lock: when the door closes, the latch catches automatically without a key. The only window is painted shut, the fireplace is too narrow for a person, and the key is found on the desk inside.",
+    "question": "How could the door have locked while the key remained on the desk?",
+    "answer": "The door closed and the spring latch engaged automatically.",
+    "explanation": "The lock does not require a key to latch. The key's position inside the room is therefore not a contradiction."
   },
   {
     "id": "002",
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The Three Switches",
     "difficulty": "EASY",
-    "scenario": "Outside a sealed room are three switches. Inside is one old lamp. You may operate the switches as you like, but may enter the room only once.",
+    "scenario": "Outside a sealed room are three switches. Inside is one traditional incandescent bulb that becomes noticeably warm after being lit. You may operate the switches as you like, but may enter the room only once.",
     "question": "How can you identify the lamp's switch?",
-    "answer": "Turn switch 1 on for several minutes, then turn it off. Turn switch 2 on and enter. Lit means switch 2; unlit but warm means switch 1; unlit and cool means switch 3.",
-    "explanation": "The bulb's heat preserves evidence of the first switch even after it is turned off."
+    "answer": "Turn switch 1 on for several minutes, then turn it off. Turn switch 2 on and enter. If the bulb is lit, switch 2 controls it; if it is off but warm, switch 1 controls it; if it is off and cool, switch 3 controls it.",
+    "explanation": "The incandescent bulb's residual heat distinguishes the first switch from the unused third switch."
   },
   {
     "id": "003",
@@ -35,19 +35,19 @@ window.NHR5_CASES = [
     "title": "The Clockwork Door",
     "difficulty": "EASY",
     "scenario": "A vault door locks automatically at 8:00. The guard says he entered at 8:05 and found it locked, but the entry log shows his code used at 7:58.",
-    "question": "When did the guard's code open the door?",
-    "answer": "At 7:58, before the automatic lock engaged.",
-    "explanation": "The log records the successful code event. The guard's later statement describes when he found the door, not when he opened it."
+    "question": "Which part of the guard's account conflicts with the log?",
+    "answer": "His claim that he entered at 8:05 conflicts with the successful code event recorded at 7:58, before the automatic lock engaged.",
+    "explanation": "The log records a successful code event at 7:58. If that event unlocked the door, the guard's claimed first entry at 8:05 cannot be correct unless the log or clock is wrong."
   },
   {
     "id": "005",
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The Dry Floor",
     "difficulty": "EASY",
-    "scenario": "A room is flooded, but a paper note on a chair is perfectly dry. The chair stands on four dry wooden blocks; the surrounding floor is wet.",
+    "scenario": "A room is flooded, but a paper note on a chair is perfectly dry. The chair stands on four tall, dry wooden blocks that raise its seat clearly above the waterline; the surrounding floor is wet.",
     "question": "What is the simplest explanation for the dry note?",
-    "answer": "The chair and note were placed on a raised platform or otherwise kept above the water.",
-    "explanation": "The dry blocks and note show the chair was elevated above the floodwater; the clues do not identify who moved it."
+    "answer": "The chair and note remained above the floodwater because the blocks raised the seat above the waterline.",
+    "explanation": "The stated height of the blocks explains why the chair and note stayed dry. The clues do not identify who placed the blocks."
   },
   {
     "id": "006",
@@ -134,10 +134,10 @@ window.NHR5_CASES = [
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The Inside Bolt",
     "difficulty": "MEDIUM",
-    "scenario": "A bolt is found slid shut on the inside of a room. The door opens outward, and a cord is threaded through a tiny hole beside the bolt.",
+    "scenario": "A bolt is found slid shut on the inside of a room. Before the door was closed, a thin flexible cord was looped around the bolt's sliding handle and its free end was passed through a tiny hole beside the bolt to the outside.",
     "question": "How could the bolt have been slid after the door closed?",
-    "answer": "The cord could have been pulled from outside to move the bolt.",
-    "explanation": "The cord provides a mechanical link to the inside bolt. This explains the locked-room appearance without a second exit."
+    "answer": "Someone outside could pull the free end of the cord to slide the bolt into place after the door closed.",
+    "explanation": "The cord was already looped around the bolt before the door shut, allowing the bolt to be moved from outside without reopening the door."
   },
   {
     "id": "015",
@@ -304,10 +304,10 @@ window.NHR5_CASES = [
     "category": "CRIMINAL DEDUCTION",
     "title": "The Three Keys",
     "difficulty": "MEDIUM",
-    "scenario": "Only one key opens the office. Red opens the lab. Blue opens the office or the store. Green does not open the store. The store key is not green, and the office key is not red.",
+    "scenario": "Three keys—Red, Blue, and Green—open three different rooms: the lab, office, and store. Red opens the lab. Blue opens either the office or the store. Green opens either the office or the store. Each key opens exactly one room, and Green does not open the store.",
     "question": "Which key opens the office?",
-    "answer": "Blue opens the store; Green opens the office.",
-    "explanation": "Red is assigned to the lab. Green cannot open the store, so Green must open the office. Blue is then the only key left for the store."
+    "answer": "Green opens the office, and Blue opens the store.",
+    "explanation": "Red is assigned to the lab. Since Green cannot open the store and must open one of the two remaining rooms, Green opens the office; Blue therefore opens the store."
   },
   {
     "id": "032",
@@ -684,20 +684,20 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Missing Vowels",
     "difficulty": "MEDIUM",
-    "scenario": "A coded note removes all vowels from an English phrase: M T T H L B R R Y.",
+    "scenario": "A detective's note has had all vowels removed. It reads: M T T H L B R R Y. The first two words are 'MEET THE'. The final word is a seven-letter place where a meeting could be held.",
     "question": "Restore the phrase: 'M T T H L B R R Y'.",
     "answer": "MEET THE LIBRARY.",
-    "explanation": "The consonant pattern fits MEET THE LIBRARY, but without a stated phrase context, other restorations are possible."
+    "explanation": "The final word must be a seven-letter place whose consonants are L, B, R, R, Y. LIBRARY fits that pattern."
   },
   {
     "id": "070",
     "category": "SECRET CODES & MESSAGES",
     "title": "The Rail Fence",
     "difficulty": "MEDIUM",
-    "scenario": "A two-row rail-fence cipher is made by writing alternating letters on two lines, then reading line 1 followed by line 2. Ciphertext: HLOELWRD.",
+    "scenario": "A two-row rail-fence cipher is made by writing alternating letters of the original message on two lines, then reading line 1 followed by line 2. Ciphertext: HLOOLELWRD.",
     "question": "What was the original message?",
     "answer": "HELLOWORLD.",
-    "explanation": "Split the ciphertext into the two rails H L O W and E L O R D, then interleave: H E L L O W O R L D."
+    "explanation": "Split the ciphertext into the two rails HLOOL and ELWRD, then interleave the letters: H E L L O W O R L D."
   },
   {
     "id": "071",
@@ -744,10 +744,10 @@ window.NHR5_CASES = [
     "category": "SECRET CODES & MESSAGES",
     "title": "The Paired Numbers",
     "difficulty": "HARD",
-    "scenario": "Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode (8,5) (7,8) (10,5).",
+    "scenario": "Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode (8,5) (7,8) (11,5).",
     "question": "What word is hidden?",
-    "answer": "MOT.",
-    "explanation": "8+5=13=M; 7+8=15=O; 10+5=15=O. The result is MOO, not MOT."
+    "answer": "MOP.",
+    "explanation": "8+5=13=M; 7+8=15=O; 11+5=16=P."
   },
   {
     "id": "076",
@@ -845,9 +845,9 @@ window.NHR5_CASES = [
     "title": "The Numbered Safe",
     "difficulty": "EASY",
     "scenario": "A three-digit code uses distinct digits. The first digit is twice the third. The middle digit is 1 less than the first. The digits sum to 11.",
-    "question": "What is the code?",
+    "question": "Are the clues consistent? If not, show why no code can satisfy them.",
     "answer": "No valid code exists.",
-    "explanation": "Let the third digit be x, first 2x, middle 2x−1. Their sum is 5x−1=11, so x=2.4, not a digit. The clues are inconsistent."
+    "explanation": "Let the third digit be x, the first 2x, and the middle 2x−1. Their sum is 5x−1=11, so x=2.4, which cannot be a digit. The clues are inconsistent."
   },
   {
     "id": "086",
@@ -885,19 +885,19 @@ window.NHR5_CASES = [
     "title": "The Odd Safe",
     "difficulty": "MEDIUM",
     "scenario": "A safe code is a positive integer under 100. It is divisible by 3 and 5, and its digits add to 9.",
-    "question": "What is the code?",
-    "answer": "45 or 90.",
-    "explanation": "Both 45 and 90 meet the rules, so there is no unique code."
+    "question": "List every code that satisfies the clues.",
+    "answer": "45 and 90.",
+    "explanation": "Both 45 and 90 are positive, below 100, divisible by 15, and have digits that add to 9. The clues allow two answers."
   },
   {
     "id": "090",
     "category": "MASTER DETECTIVE CASES",
     "title": "The Honest Guide",
     "difficulty": "MEDIUM",
-    "scenario": "Two doors lead out. One guide always tells the truth, one always lies. You may ask one guide one yes/no question to identify the safe door.",
+    "scenario": "Two doors lead out: one is safe and one is dangerous. Two guides know which door is safe; one always tells the truth and the other always lies. You may ask one guide one yes/no question about either chosen door.",
     "question": "What question should you ask?",
-    "answer": "Ask either guide: 'Would the other guide say this door is safe?' Then choose the opposite of the answer.",
-    "explanation": "Both truth-teller and liar give the same misleading response about the other guide, so taking the opposite identifies the safe door."
+    "answer": "Point to one door and ask either guide: 'Would the other guide say this door is safe?' If the answer is yes, choose the other door; if the answer is no, choose the door you pointed to.",
+    "explanation": "Both guides give an answer that is the opposite of the truth about the selected door. A 'yes' means the selected door is dangerous; a 'no' means it is safe."
   },
   {
     "id": "091",
@@ -945,9 +945,9 @@ window.NHR5_CASES = [
     "title": "The Silent Number",
     "difficulty": "HARD",
     "scenario": "A number is greater than 20 and less than 30. It is prime and its digits add to 8.",
-    "question": "What is the number?",
+    "question": "Can such a number exist? Explain using the prime numbers in that range.",
     "answer": "No such number exists.",
-    "explanation": "The primes between 21 and 29 are 23 and 29; their digit sums are 5 and 11, not 8."
+    "explanation": "The primes strictly between 20 and 30 are 23 and 29. Their digit sums are 5 and 11, so neither has a digit sum of 8."
   },
   {
     "id": "096",
