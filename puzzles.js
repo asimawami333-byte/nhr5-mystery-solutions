@@ -516,8 +516,8 @@ window.NHR5_CASES = [
     "difficulty": "MEDIUM",
     "scenario": "A printer tray contains a warm sheet of paper. The printer's job history is empty.",
     "question": "What possibilities remain?",
-    "answer": "The page was printed by another device, the history was cleared, or the printer's logging failed.",
-    "explanation": "Warm paper suggests recent output, but an empty log does not prove no print occurred."
+    "answer": "The sheet may have been printed recently, but the clues do not establish which printer produced it or why no job appears in the history. The history may have been cleared, logging may have failed, another device may have printed it, or an external heat source may have warmed the paper.",
+    "explanation": "Warmth alone cannot prove when or where the page was printed. An empty job history does not rule out printing, and the paper could also have been warmed by another source."
   },
   {
     "id": "053",
