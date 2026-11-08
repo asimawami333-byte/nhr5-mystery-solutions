@@ -34,10 +34,10 @@ window.NHR5_CASES = [
     "category": "LOCKED-ROOM MYSTERIES",
     "title": "The Clockwork Door",
     "difficulty": "EASY",
-    "scenario": "A vault door locks automatically at 8:00. The guard says he entered at 8:05 and found it locked, but the entry log shows his code used at 7:58.",
+    "scenario": "A vault door locks automatically at 8:00. The guard claims he first used his code to enter at 8:05, but the entry log records his code successfully unlocking the door at 7:58.",
     "question": "Which part of the guard's account conflicts with the log?",
-    "answer": "His claim that he entered at 8:05 conflicts with the successful code event recorded at 7:58, before the automatic lock engaged.",
-    "explanation": "The log records a successful code event at 7:58. If that event unlocked the door, the guard's claimed first entry at 8:05 cannot be correct unless the log or clock is wrong."
+    "answer": "His claim that he first used the code at 8:05 conflicts with the successful unlock recorded at 7:58.",
+    "explanation": "The log records a successful code event two minutes before the automatic lock engaged. Unless the log or clock is wrong, the code was used before 8:00, not first at 8:05."
   },
   {
     "id": "005",
@@ -864,7 +864,7 @@ window.NHR5_CASES = [
     "category": "MASTER DETECTIVE CASES",
     "title": "The Museum Route",
     "difficulty": "MEDIUM",
-    "scenario": "A detective must visit Hall A before B, B before C, and C before D. The route starts at A and ends at D.",
+    "scenario": "A museum has exactly four halls: A, B, C, and D. A detective must visit Hall A before B, B before C, and C before D. The route starts at A and ends at D.",
     "question": "What is the only valid order?",
     "answer": "A, B, C, D.",
     "explanation": "The precedence constraints form a single chain."
