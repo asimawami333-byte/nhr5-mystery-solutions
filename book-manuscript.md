@@ -35,9 +35,9 @@ One hundred cases stand between you and the truth. Read every clue carefully, qu
 
 **Difficulty:** EASY
 
-A study is locked. The only window is painted shut, the fireplace is too narrow for a person, and the key is found on the desk inside. The door has no damage.
+A study has a self-latching spring lock: when the door closes, the latch catches automatically without a key. The only window is painted shut, the fireplace is too narrow for a person, and the key is found on the desk inside.
 
-**CHALLENGE:** How could the room have been locked from the inside if the key was on the desk?
+**CHALLENGE:** How could the door have locked while the key remained on the desk?
 
 **Your conclusion:** ______________________________________________
 
@@ -47,7 +47,7 @@ A study is locked. The only window is painted shut, the fireplace is too narrow 
 
 **Difficulty:** EASY
 
-Outside a sealed room are three switches. Inside is one old lamp. You may operate the switches as you like, but may enter the room only once.
+Outside a sealed room are three switches. Inside is one traditional incandescent bulb that becomes noticeably warm after being lit. You may operate the switches as you like, but may enter the room only once.
 
 **CHALLENGE:** How can you identify the lamp's switch?
 
@@ -73,7 +73,7 @@ A person is found in a locked room. Snow lies undisturbed outside the only windo
 
 A vault door locks automatically at 8:00. The guard says he entered at 8:05 and found it locked, but the entry log shows his code used at 7:58.
 
-**CHALLENGE:** When did the guard's code open the door?
+**CHALLENGE:** Which part of the guard's account conflicts with the log?
 
 **Your conclusion:** ______________________________________________
 
@@ -83,7 +83,7 @@ A vault door locks automatically at 8:00. The guard says he entered at 8:05 and 
 
 **Difficulty:** EASY
 
-A room is flooded, but a paper note on a chair is perfectly dry. The chair stands on four dry wooden blocks; the surrounding floor is wet.
+A room is flooded, but a paper note on a chair is perfectly dry. The chair stands on four tall, dry wooden blocks that raise its seat clearly above the waterline; the surrounding floor is wet.
 
 **CHALLENGE:** What is the simplest explanation for the dry note?
 
@@ -191,7 +191,7 @@ A jewel disappears from a locked room. A skylight is open, but a fine dust layer
 
 **Difficulty:** MEDIUM
 
-A bolt is found slid shut on the inside of a room. The door opens outward, and a cord is threaded through a tiny hole beside the bolt.
+A bolt is found slid shut on the inside of a room. Before the door was closed, a thin flexible cord was looped around the bolt's sliding handle and its free end was passed through a tiny hole beside the bolt to the outside.
 
 **CHALLENGE:** How could the bolt have been slid after the door closed?
 
@@ -397,7 +397,7 @@ A message was sent from a suspect's phone at 9:03. The phone was in the evidence
 
 **Difficulty:** MEDIUM
 
-Only one key opens the office. Red opens the lab. Blue opens the office or the store. Green does not open the store. The store key is not green, and the office key is not red.
+Three keys—Red, Blue, and Green—open three different rooms: the lab, office, and store. Red opens the lab. Blue opens either the office or the store. Green opens either the office or the store. Each key opens exactly one room, and Green does not open the store.
 
 **CHALLENGE:** Which key opens the office?
 
@@ -857,7 +857,7 @@ A=1 through Z=26. Decode 20-18-21-19-20 14-15 15-14-5.
 
 **Difficulty:** MEDIUM
 
-A coded note removes all vowels from an English phrase: M T T H L B R R Y.
+A detective's note has had all vowels removed. It reads: M T T H L B R R Y. The first two words are 'MEET THE'. The final word is a seven-letter place where a meeting could be held.
 
 **CHALLENGE:** Restore the phrase: 'M T T H L B R R Y'.
 
@@ -869,7 +869,7 @@ A coded note removes all vowels from an English phrase: M T T H L B R R Y.
 
 **Difficulty:** MEDIUM
 
-A two-row rail-fence cipher is made by writing alternating letters on two lines, then reading line 1 followed by line 2. Ciphertext: HLOELWRD.
+A two-row rail-fence cipher is made by writing alternating letters of the original message on two lines, then reading line 1 followed by line 2. Ciphertext: HLOOLELWRD.
 
 **CHALLENGE:** What was the original message?
 
@@ -929,7 +929,7 @@ The message is written backward, character by character: .emoh og
 
 **Difficulty:** HARD
 
-Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode (8,5) (7,8) (10,5).
+Each pair gives a letter: add the two numbers, then use A=1 through Z=26. Decode (8,5) (7,8) (11,5).
 
 **CHALLENGE:** What word is hidden?
 
@@ -1053,7 +1053,7 @@ Four people visit at 1, 2, 3, and 4. Ada is before Ben. Cara is after Ben. Dan i
 
 A three-digit code uses distinct digits. The first digit is twice the third. The middle digit is 1 less than the first. The digits sum to 11.
 
-**CHALLENGE:** What is the code?
+**CHALLENGE:** Are the clues consistent? If not, show why no code can satisfy them.
 
 **Your conclusion:** ______________________________________________
 
@@ -1101,7 +1101,7 @@ Three people wear hats, each either red or blue. You are told at least one hat i
 
 A safe code is a positive integer under 100. It is divisible by 3 and 5, and its digits add to 9.
 
-**CHALLENGE:** What is the code?
+**CHALLENGE:** List every code that satisfies the clues.
 
 **Your conclusion:** ______________________________________________
 
@@ -1111,7 +1111,7 @@ A safe code is a positive integer under 100. It is divisible by 3 and 5, and its
 
 **Difficulty:** MEDIUM
 
-Two doors lead out. One guide always tells the truth, one always lies. You may ask one guide one yes/no question to identify the safe door.
+Two doors lead out: one is safe and one is dangerous. Two guides know which door is safe; one always tells the truth and the other always lies. You may ask one guide one yes/no question about either chosen door.
 
 **CHALLENGE:** What question should you ask?
 
@@ -1173,7 +1173,7 @@ A meeting is on a day after Tuesday and before Friday. It is not Thursday.
 
 A number is greater than 20 and less than 30. It is prime and its digits add to 8.
 
-**CHALLENGE:** What is the number?
+**CHALLENGE:** Can such a number exist? Explain using the prime numbers in that range.
 
 **Your conclusion:** ______________________________________________
 
@@ -1241,10 +1241,8 @@ A code is the number of letters in each word of the phrase: 'THE OLD CLOCK STOPS
 
 # UNLOCK THE SOLUTIONS
 
-Finished the challenge? Visit the official NHR5 answer companion to reveal all 100 solutions and read their explanations.
+The complete answers and explanations are available online. Visit the NHR5 Mystery Solutions website and enter the case number.
 
-**Official website:** https://asimawami333-byte.github.io/nhr5-mystery-solutions/
+**Website:** https://asimawami333-byte.github.io/nhr5-mystery-solutions/
 
-Scan the QR code printed on this page to open the website instantly.
-
-**NHR5 — THINK LIKE A MASTER DETECTIVE.**
+**QR CODE:** [QR code to be inserted and tested before publication]
