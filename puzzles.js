@@ -416,8 +416,8 @@ window.NHR5_CASES = [
     "difficulty": "EASY",
     "scenario": "A suspect says the room was empty all night. A glass of ice water is half full at dawn, and the coaster beneath it is dry.",
     "question": "What does the dry coaster suggest?",
-    "answer": "The glass was likely placed on the coaster after condensation or liquid had already formed, or the coaster was replaced.",
-    "explanation": "A dry coaster alone cannot establish the time the glass was placed there."
+    "answer": "The dry coaster does not establish when the glass was placed. It may mean the glass was placed after condensation had formed, the coaster was replaced, or no liquid reached it.",
+    "explanation": "A dry coaster is not a reliable clock. Several ordinary explanations fit the clue, so it cannot prove that someone entered the room during the night."
   },
   {
     "id": "043",
@@ -447,7 +447,7 @@ window.NHR5_CASES = [
     "scenario": "A book's binding is intact, but page numbers jump from 42 to 45. The torn edges are clean and even.",
     "question": "What does this show?",
     "answer": "Pages 43 and 44 were removed or omitted during binding; it does not show who removed them.",
-    "explanation": "The numbering gap and matching cut edges indicate missing pages, not the culprit."
+    "explanation": "The numbering gap and clean, even edges support the conclusion that pages were removed or omitted. They do not identify who caused the gap or exactly when it happened."
   },
   {
     "id": "046",
@@ -456,8 +456,8 @@ window.NHR5_CASES = [
     "difficulty": "EASY",
     "scenario": "Wax drips run down the side of a candle, but the candle holder has no pooled wax.",
     "question": "What does that suggest?",
-    "answer": "The candle may have been tilted or moved while burning.",
-    "explanation": "Wax direction can indicate orientation, but does not give an exact time or identify who moved it."
+    "answer": "The candle may have been tilted or moved while burning, but the drip pattern alone cannot prove that.",
+    "explanation": "Wax running down one side is consistent with a tilted or moving candle. Other causes are possible, so the pattern does not establish a precise event or identify a person."
   },
   {
     "id": "047",
@@ -466,8 +466,8 @@ window.NHR5_CASES = [
     "difficulty": "MEDIUM",
     "scenario": "A keyboard is dusty except for the space bar and Enter key.",
     "question": "What is the cautious inference?",
-    "answer": "Those keys were used more recently or more often than the others.",
-    "explanation": "Clean keys suggest contact but do not prove a particular person typed a particular message."
+    "answer": "The space bar and Enter key were likely touched or cleaned more recently than the surrounding keys; the pattern does not prove who used them.",
+    "explanation": "The difference in dust is consistent with use or selective cleaning. It cannot identify a user or prove that a particular message was typed."
   },
   {
     "id": "048",
@@ -496,8 +496,8 @@ window.NHR5_CASES = [
     "difficulty": "MEDIUM",
     "scenario": "A painted door is dry except for a thumb-sized wet patch near the handle.",
     "question": "What does the patch suggest?",
-    "answer": "Someone or something touched the paint there before it dried.",
-    "explanation": "The patch indicates contact, but not the identity or intention of the person."
+    "answer": "The wet patch may result from contact before the paint dried or from uneven drying; it does not identify a person or prove deliberate tampering.",
+    "explanation": "A local wet patch can have more than one cause. The clue alone cannot distinguish a thumbprint from uneven drying or another source of moisture."
   },
   {
     "id": "051",
@@ -534,10 +534,10 @@ window.NHR5_CASES = [
     "category": "HIDDEN EVIDENCE",
     "title": "The Faded Photograph",
     "difficulty": "MEDIUM",
-    "scenario": "A framed photograph has a lighter rectangle on the wall behind it, but the frame is still hanging there.",
+    "scenario": "A framed photograph hangs on a wall. A lighter rectangular outline is visible around its edges, suggesting that the wall was covered differently at some point.",
     "question": "What can be inferred?",
-    "answer": "The frame was moved or replaced recently enough to leave a difference in wall fading.",
-    "explanation": "The wall's colour difference indicates changed exposure, not the photograph's contents or who moved it."
+    "answer": "The frame may have been moved, replaced, or surrounded by a larger object in the past; the outline does not establish who changed it or when.",
+    "explanation": "Differences in fading can reveal a past change in what covered the wall. They do not identify the object, the person, or the exact time."
   },
   {
     "id": "055",
@@ -586,8 +586,8 @@ window.NHR5_CASES = [
     "difficulty": "HARD",
     "scenario": "A cabinet is dusty except for its handle, which is clean.",
     "question": "What does that suggest?",
-    "answer": "The handle has been touched more recently or more frequently than the cabinet surface.",
-    "explanation": "The contrast supports recent contact but does not prove the cabinet was opened."
+    "answer": "The handle may have been touched or wiped more recently than the cabinet surface; it does not prove the cabinet was opened.",
+    "explanation": "A clean handle is consistent with recent contact or selective cleaning. Dust patterns alone cannot confirm that the door moved."
   },
   {
     "id": "060",
